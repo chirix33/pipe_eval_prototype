@@ -1,0 +1,15 @@
+graph TD
+    comp_0["Goal: Calculate the total legs from dogs\nEntities: dogs\nDiff: 0.40\nOrder: 0\nImpact: 0.90\nPriority: 0.57"]:::priority_57
+    comp_1["Goal: Calculate the total legs from cats\nEntities: cats\nDiff: 0.40\nOrder: 1\nImpact: 0.90\nPriority: 0.77"]:::priority_77
+    comp_2["Goal: Calculate the total legs from chickens\nEntities: chickens\nDiff: 0.40\nOrder: 2\nImpact: 0.90\nPriority: 0.77"]:::priority_77
+    comp_3["Goal: Sum the total legs from all animals\nEntities: total legs\nDiff: 0.40\nOrder: 3\nImpact: 0.10\nPriority: 0.37"]:::priority_37
+    comp_0 --> comp_3
+    comp_1 --> comp_3
+    comp_2 --> comp_3
+    classDef priority_high fill:#ff6b6b,stroke:#c92a2a,stroke-width:2px
+    classDef priority_med fill:#ffd93d,stroke:#f59f00,stroke-width:2px
+    classDef priority_low fill:#6bcf7f,stroke:#2b8a3e,stroke-width:2px
+    class comp_0 priority_med
+    class comp_1 priority_high
+    class comp_2 priority_high
+    class comp_3 priority_low
