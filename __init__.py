@@ -18,6 +18,8 @@ from .evaluation import (
     ComponentLevelVerifier,
     HybridSolutionVerifier,
 )
+from .config import LLMConfig, DomainConfig, get_domain_config
+from .solvers import BaseSolver, SolverResult, BaselineSolver, DecompositionSolver
 
 __all__ = [
     "ProblemDecomposition",
@@ -33,4 +35,11 @@ __all__ = [
     "FinalAnswerVerifier",
     "ComponentLevelVerifier",
     "HybridSolutionVerifier",
+    "LLMConfig",
+    "DomainConfig",
+    "get_domain_config",
+    "BaseSolver",
+    "SolverResult",
+    "BaselineSolver",
+    "DecompositionSolver",
 ]

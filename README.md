@@ -144,9 +144,36 @@ The evaluation framework provides:
 
 See `evaluation/USAGE_GUIDE.md` for detailed usage instructions.
 
+## Experiments and Evaluation
+
+The `experiments/` directory contains scripts for running cross-domain evaluations:
+
+### Quick Start
+
+```bash
+# Run cross-domain evaluation
+python run_evaluation.py
+
+# Or use the experiment script directly
+python experiments/cross_domain_eval.py --num-problems 10
+
+# Analyze results
+python experiments/results_analyzer.py
+```
+
+### Evaluation Framework
+
+- **Baseline Solver**: Direct LLM problem-solving (no decomposition)
+- **Decomposition Solver**: Uses weighted sub-components to guide solving
+- **Cross-Domain Evaluator**: Compares both approaches across domains
+- **Results Analyzer**: Generates comparison reports
+
+See `README_EXPERIMENTS.md` for detailed documentation.
+
 ## Future Enhancements
 
 - [x] Integration with reasoning-gym verification
+- [x] Cross-domain evaluation framework
 - [ ] Learn weights from feedback (meta-learning)
 - [ ] Support for multi-level decomposition
 - [ ] Export to graph databases
