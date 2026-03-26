@@ -126,7 +126,8 @@ class WeightCalculator:
         
         Higher score = higher priority for solving/monitoring.
         
-        Formula: (difficulty * 0.3) + (dependency_order_norm * 0.2) + (failure_impact * 0.5)
+        Formula: beta_0 + (difficulty * w_1) + (dependency_order_norm * w_2) + (failure_impact * w_3)
+        where beta_0 is the intercept (constant term).
         
         Args:
             component: The sub-component to score
@@ -134,15 +135,22 @@ class WeightCalculator:
         Returns:
             Priority score (0.0-1.0)
         """
+        # Intercept and weights
+        beta_0 = 0.1  # Constant term (intercept)
+        w_1 = 0.25    # Difficulty weight
+        w_2 = 0.15    # Dependency order weight
+        w_3 = 0.50    # Failure impact weight
+
         # Normalize dependency_order (assuming max order is reasonable)
         # For now, normalize by dividing by max(1, order) - this is a simple heuristic
         max_order = max(1, component.dependency_order)
         normalized_order = component.dependency_order / max_order if max_order > 0 else 0.0
         
         priority = (
-            component.difficulty * 0.3 +
-            normalized_order * 0.2 +
-            component.failure_impact * 0.5
+            beta_0 +
+            component.difficulty * w_1 +
+            normalized_order * w_2 +
+            component.failure_impact * w_3
         )
         
         return min(1.0, priority)
