@@ -1,5 +1,5 @@
 {
-  "experiment_timestamp": "2026-02-24T16:10:14.377424",
+  "experiment_timestamp": "2026-02-27T16:08:34.637785",
   "domains_evaluated": [
     "arithmetic",
     "games",
@@ -10,41 +10,46 @@
     "arithmetic": {
       "domain": "arithmetic",
       "task": "leg_counting",
-      "timestamp": "2026-02-24T16:10:14.377424",
+      "timestamp": "2026-02-27T16:08:34.639337",
       "num_problems": 5,
       "baseline_results": [
         {
           "problem_index": 0,
-          "solution": "To find the total number of legs, we need to know how many legs each type of animal has:\n\n- Sea slugs: 0 legs\n- Deers: 4 legs each\n- Giraffes: 4 legs each\n- Elephants: 4 legs each\n\nNow, we can calculate the total number of legs for each animal:\n\n1. Sea slugs: 3 sea slugs \u00d7 0 legs = 0 legs\n2. Deers: 12 deers \u00d7 4 legs = 48 legs\n3. Giraffes: 2 giraffes \u00d7 4 legs = 8 legs\n4. Elephants: 11 elephants \u00d7 4 legs = 44 legs\n\nNow, we add all the legs together:\n\nTotal legs = 0 + 48 + 8 + 44 = 100 legs\n\nTherefore, the total number of legs is **100**.",
-          "score": 0.005545286506469501,
+          "solution": "To calculate the total number of legs, we first need to know how many legs each type of animal has: sea slugs have 0 legs, deers have 4 legs, giraffes have 4 legs, and elephants have 4 legs. We then multiply the number of each type of animal by the number of legs they have: 3 sea slugs * 0 legs = 0 legs, 12 deers * 4 legs = 48 legs, 2 giraffes * 4 legs = 8 legs, and 11 elephants * 4 legs = 44 legs. Finally, we sum all the legs: 0 + 48 + 8 + 44 = 100 legs.",
+          "final_answer": "100",
+          "score": 1.0,
           "success": true,
           "error": null
         },
         {
           "problem_index": 1,
-          "solution": "To calculate the total number of legs, we need to know how many legs each type of animal has:\n\n- Sheep: 4 legs each\n- Dogs: 4 legs each\n- Praying mantises: 6 legs each\n\nNow, we can calculate the total number of legs for each type of animal:\n\n1. **Sheep**: \n   \\( 6 \\text{ sheep} \\times 4 \\text{ legs/sheep} = 24 \\text{ legs} \\)\n\n2. **Dogs**: \n   \\( 11 \\text{ dogs} \\times 4 \\text{ legs/dog} = 44 \\text{ legs} \\)\n\n3. **Praying mantises**: \n   \\( 12 \\text{ mantises} \\times 6 \\text{ legs/mantis} = 72 \\text{ legs} \\)\n\nNow, we add all the legs together:\n\n\\[\n24 \\text{ legs (sheep)} + 44 \\text{ legs (dogs)} + 72 \\text{ legs (mantises)} = 140 \\text{ legs}\n\\]\n\nTherefore, the total number of legs is **140**.",
-          "score": 0.004267425320056899,
+          "solution": "To calculate the total number of legs, we need to know the number of legs each type of animal has: sheep have 4 legs, dogs have 4 legs, and praying mantises have 6 legs. We calculate the total legs for each animal type: For 6 sheep: 6 * 4 = 24 legs. For 11 dogs: 11 * 4 = 44 legs. For 12 praying mantises: 12 * 6 = 72 legs. Now we sum these totals: 24 + 44 + 72 = 140 legs.",
+          "final_answer": "140",
+          "score": 1.0,
           "success": true,
           "error": null
         },
         {
           "problem_index": 2,
-          "solution": "To calculate the total number of legs, we need to know the number of legs each type of animal has:\n\n- Crab: 10 legs\n- Lobster: 10 legs\n- Human: 2 legs\n- Cow: 4 legs\n- Bee: 6 legs\n- Elephant: 4 legs\n- Dog: 4 legs\n- Snake: 0 legs\n- Shrimp: 10 legs\n\nNow, we can calculate the total number of legs for each type of animal:\n\n1. Crabs: 2 crabs \u00d7 10 legs = 20 legs\n2. Lobsters: 10 lobsters \u00d7 10 legs = 100 legs\n3. Human: 1 human \u00d7 2 legs = 2 legs\n4. Cows: 2 cows \u00d7 4 legs = 8 legs\n5. Bees: 3 bees \u00d7 6 legs = 18 legs\n6. Elephants: 13 elephants \u00d7 4 legs = 52 legs\n7. Dogs: 9 dogs \u00d7 4 legs = 36 legs\n8. Snakes: 12 snakes \u00d7 0 legs = 0 legs\n9. Shrimps: 5 shrimps \u00d7 10 legs = 50 legs\n\nNow, we sum all the legs:\n\n20 + 100 + 2 + 8 + 18 + 52 + 36 + 0 + 50 = 336 legs\n\nTherefore, the total number of legs is **336**.",
+          "solution": "To calculate the total number of legs, we need to know how many legs each type of animal has: crabs have 10 legs, lobsters have 10 legs, humans have 2 legs, cows have 4 legs, bees have 6 legs, elephants have 4 legs, dogs have 4 legs, snakes have 0 legs, and shrimps have 10 legs. We then multiply the number of each animal by the number of legs they have and sum them up: (2 crabs * 10) + (10 lobsters * 10) + (1 human * 2) + (2 cows * 4) + (3 bees * 6) + (13 elephants * 4) + (9 dogs * 4) + (12 snakes * 0) + (5 shrimps * 10). This gives us: 20 + 100 + 2 + 8 + 18 + 52 + 36 + 0 + 50 = 336.",
+          "final_answer": "336",
           "score": 0.0,
           "success": true,
           "error": null
         },
         {
           "problem_index": 3,
-          "solution": "To calculate the total number of legs, we need to know the number of legs each type of animal has:\n\n- Grasshoppers: 6 legs each\n- Spiders: 8 legs each\n- Tigers: 4 legs each\n- Chickens: 2 legs each\n- Starfish: 5 legs each\n- Ants: 6 legs each\n- Snakes: 0 legs each\n\nNow, we can calculate the total number of legs for each type of animal:\n\n1. Grasshoppers: 2 * 6 = 12 legs\n2. Spiders: 8 * 8 = 64 legs\n3. Tigers: 1 * 4 = 4 legs\n4. Chickens: 2 * 2 = 4 legs\n5. Starfish: 5 * 5 = 25 legs\n6. Ants: 13 * 6 = 78 legs\n7. Snakes: 2 * 0 = 0 legs\n\nNow, we sum all the legs:\n\nTotal legs = 12 + 64 + 4 + 4 + 25 + 78 + 0 = 187 legs\n\nTherefore, the total number of legs is **187**.",
-          "score": 0.004524886877828055,
+          "solution": "To calculate the total number of legs, we first need to know how many legs each type of animal has: grasshoppers have 6 legs, spiders have 8 legs, tigers have 4 legs, chickens have 2 legs, starfish have 5 legs, ants have 6 legs, and snakes have 0 legs. We then multiply the number of each animal by its respective number of legs and sum the results: (2 grasshoppers * 6 legs) + (8 spiders * 8 legs) + (1 tiger * 4 legs) + (2 chickens * 2 legs) + (5 starfish * 5 legs) + (13 ants * 6 legs) + (2 snakes * 0 legs). This results in: 12 + 64 + 4 + 4 + 25 + 78 + 0 = 187 legs in total.",
+          "final_answer": "187",
+          "score": 1.0,
           "success": true,
           "error": null
         },
         {
           "problem_index": 4,
-          "solution": "To calculate the total number of legs, we need to know how many legs each type of animal has:\n\n- Wasps: 6 legs each\n- Jellyfish: 0 legs\n- Elephants: 4 legs each\n- Crabs: 10 legs each\n\nNow, we can calculate the total number of legs for each type of animal:\n\n1. Wasps: 3 wasps \u00d7 6 legs = 18 legs\n2. Jellyfish: 10 jellyfish \u00d7 0 legs = 0 legs\n3. Elephants: 9 elephants \u00d7 4 legs = 36 legs\n4. Crabs: 13 crabs \u00d7 10 legs = 130 legs\n\nNow, we add all the legs together:\n\nTotal legs = 18 (wasps) + 0 (jellyfish) + 36 (elephants) + 130 (crabs) = 184 legs\n\nTherefore, the total number of legs is **184**.",
-          "score": 0.005076142131979695,
+          "solution": "To find the total number of legs, we need to know the number of legs each type of animal has: wasps have 6 legs, jellyfish have 0 legs, elephants have 4 legs, and crabs have 10 legs. We calculate the total legs for each type of animal: 3 wasps * 6 legs = 18 legs, 10 jellyfish * 0 legs = 0 legs, 9 elephants * 4 legs = 36 legs, and 13 crabs * 10 legs = 130 legs. Adding these together gives us 18 + 0 + 36 + 130 = 184 legs.",
+          "final_answer": "184",
+          "score": 1.0,
           "success": true,
           "error": null
         }
@@ -52,8 +57,9 @@
       "decomposition_results": [
         {
           "problem_index": 0,
-          "solution": "Let's address each sub-component systematically to find the total number of legs from the given list of animals.\n\n### 1. Count legs of deers\n- **Entities:** 12 deers\n- **Legs per deer:** 4\n- **Calculation:** \n  \\[\n  \\text{Total legs from deers} = 12 \\text{ deers} \\times 4 \\text{ legs/deer} = 48 \\text{ legs}\n  \\]\n\n### 2. Count legs of giraffes\n- **Entities:** 2 giraffes\n- **Legs per giraffe:** 4\n- **Calculation:** \n  \\[\n  \\text{Total legs from giraffes} = 2 \\text{ giraffes} \\times 4 \\text{ legs/giraffe} = 8 \\text{ legs}\n  \\]\n\n### 3. Count legs of elephants\n- **Entities:** 11 elephants\n- **Legs per elephant:** 4\n- **Calculation:** \n  \\[\n  \\text{Total legs from elephants} = 11 \\text{ elephants} \\times 4 \\text{ legs/elephant} = 44 \\text{ legs}\n  \\]\n\n### 4. Count legs of sea slugs\n- **Entities:** 3 sea slugs\n- **Legs per sea slug:** 0 (sea slugs do not have legs)\n- **Calculation:** \n  \\[\n  \\text{Total legs from sea slugs} = 3 \\text{ sea slugs} \\times 0 \\text{ legs/sea slug} = 0 \\text{ legs}\n  \\]\n\n### 5. Sum total legs from all animals\n- **Dependencies:** Total legs from deers, giraffes, elephants, and sea slugs\n- **Calculations:**\n  - Total legs from deers: 48\n  - Total legs from giraffes: 8\n  - Total legs from elephants: 44\n  - Total legs from sea slugs: 0\n- **Final Calculation:**\n  \\[\n  \\text{Total legs} = 48 + 8 + 44 + 0 = 100 \\text{ legs}\n  \\]\n\n### Final Answer\nThe total number of legs from the given list of animals is **100 legs**.",
-          "score": 0.002061855670103093,
+          "solution": "1. Count the legs of deers: Each deer has 4 legs. Therefore, for 12 deers, the total legs = 12 * 4 = 48 legs.\n\n2. Count the legs of giraffes: Each giraffe also has 4 legs. Therefore, for 2 giraffes, the total legs = 2 * 4 = 8 legs.\n\n3. Count the legs of elephants: Each elephant has 4 legs. Therefore, for 11 elephants, the total legs = 11 * 4 = 44 legs.\n\n4. Count the legs of sea slugs: Each sea slug has 0 legs. Therefore, for 3 sea slugs, the total legs = 3 * 0 = 0 legs.\n\n5. Sum the total number of legs counted: Total legs = legs from deers (48) + legs from giraffes (8) + legs from elephants (44) + legs from sea slugs (0) = 48 + 8 + 44 + 0 = 100 legs.",
+          "final_answer": "100",
+          "score": 1.0,
           "success": true,
           "error": null,
           "decomposition_quality": {
@@ -86,8 +92,30 @@
         },
         {
           "problem_index": 1,
-          "solution": "Let's solve the problem step-by-step according to the provided sub-components.\n\n### Step 1: Calculate the total number of legs from dogs\n\n**Entities:** 11 dogs  \n**Legs per dog:** 4\n\n**Calculation:**\n\\[\n\\text{Total legs from dogs} = \\text{Number of dogs} \\times \\text{Legs per dog} = 11 \\times 4 = 44\n\\]\n\n### Step 2: Calculate the total number of legs from praying mantises\n\n**Entities:** 12 praying mantises  \n**Legs per praying mantis:** 6\n\n**Calculation:**\n\\[\n\\text{Total legs from praying mantises} = \\text{Number of praying mantises} \\times \\text{Legs per praying mantis} = 12 \\times 6 = 72\n\\]\n\n### Step 3: Calculate the total number of legs from sheeps\n\n**Entities:** 6 sheeps  \n**Legs per sheep:** 4\n\n**Calculation:**\n\\[\n\\text{Total legs from sheeps} = \\text{Number of sheeps} \\times \\text{Legs per sheep} = 6 \\times 4 = 24\n\\]\n\n### Step 4: Sum the total number of legs from all animals\n\nNow we will sum the total legs calculated from each type of animal.\n\n**Total legs from all animals:**\n\\[\n\\text{Total legs} = \\text{Total legs from dogs} + \\text{Total legs from praying mantises} + \\text{Total legs from sheeps}\n\\]\n\\[\n\\text{Total legs} = 44 + 72 + 24 = 140\n\\]\n\n### Final Answer:\nThe total number of legs from 6 sheeps, 11 dogs, and 12 praying mantises is **140**.",
-          "score": 0.0023584905660377358,
+          "solution": [
+            {
+              "component": "Calculate the total number of legs from dogs",
+              "calculation": "11 dogs * 4 legs/dog = 44 legs",
+              "result": 44
+            },
+            {
+              "component": "Calculate the total number of legs from praying mantises",
+              "calculation": "12 praying mantises * 6 legs/mantises = 72 legs",
+              "result": 72
+            },
+            {
+              "component": "Calculate the total number of legs from sheeps",
+              "calculation": "6 sheeps * 4 legs/sheep = 24 legs",
+              "result": 24
+            },
+            {
+              "component": "Sum the total number of legs from all animals",
+              "calculation": "44 legs (dogs) + 72 legs (praying mantises) + 24 legs (sheeps) = 140 legs",
+              "result": 140
+            }
+          ],
+          "final_answer": "140",
+          "score": 1.0,
           "success": true,
           "error": null,
           "decomposition_quality": {
@@ -120,7 +148,59 @@
         },
         {
           "problem_index": 2,
-          "solution": "To solve the problem of counting the total number of legs from the given list of animals, we will address each sub-component systematically, following the priority order provided.\n\n### 1. Calculate the total number of legs for lobsters\n- **Entities**: 10 lobsters\n- **Legs per lobster**: 10\n- **Total legs for lobsters**: \n  \\[\n  10 \\text{ lobsters} \\times 10 \\text{ legs/lobster} = 100 \\text{ legs}\n  \\]\n\n### 2. Calculate the total number of legs for humans\n- **Entities**: 1 human\n- **Legs per human**: 2\n- **Total legs for humans**: \n  \\[\n  1 \\text{ human} \\times 2 \\text{ legs/human} = 2 \\text{ legs}\n  \\]\n\n### 3. Calculate the total number of legs for cows\n- **Entities**: 2 cows\n- **Legs per cow**: 4\n- **Total legs for cows**: \n  \\[\n  2 \\text{ cows} \\times 4 \\text{ legs/cow} = 8 \\text{ legs}\n  \\]\n\n### 4. Calculate the total number of legs for bees\n- **Entities**: 3 bees\n- **Legs per bee**: 6\n- **Total legs for bees**: \n  \\[\n  3 \\text{ bees} \\times 6 \\text{ legs/bee} = 18 \\text{ legs}\n  \\]\n\n### 5. Calculate the total number of legs for elephants\n- **Entities**: 13 elephants\n- **Legs per elephant**: 4\n- **Total legs for elephants**: \n  \\[\n  13 \\text{ elephants} \\times 4 \\text{ legs/elephant} = 52 \\text{ legs}\n  \\]\n\n### 6. Calculate the total number of legs for dogs\n- **Entities**: 9 dogs\n- **Legs per dog**: 4\n- **Total legs for dogs**: \n  \\[\n  9 \\text{ dogs} \\times 4 \\text{ legs/dog} = 36 \\text{ legs}\n  \\]\n\n### 7. Calculate the total number of legs for snakes\n- **Entities**: 12 snakes\n- **Legs per snake**: 0 (snakes have no legs)\n- **Total legs for snakes**: \n  \\[\n  12 \\text{ snakes} \\times 0 \\text{ legs/snake} = 0 \\text{ legs}\n  \\]\n\n### 8. Calculate the total number of legs for shrimps\n- **Entities**: 5 shrimps\n- **Legs per shrimp**: 10\n- **Total legs for shrimps**: \n  \\[\n  5 \\text{ shrimps} \\times 10 \\text{ legs/shrimp} = 50 \\text{ legs}\n  \\]\n\n### 9. Calculate the total number of legs for crabs\n- **Entities**: 2 crabs\n- **Legs per crab**: 10\n- **Total legs for crabs**: \n  \\[\n  2 \\text{ crabs} \\times 10 \\text{ legs/crab} = 20 \\text{ legs}\n  \\]\n\n### 10. Sum the total number of legs from all animals\nNow we will sum the total legs calculated from each component:\n- Total legs from lobsters: 100\n- Total legs from humans: 2\n- Total legs from cows: 8\n- Total legs from bees: 18\n- Total legs from elephants: 52\n- Total legs from dogs: 36\n- Total legs from snakes: 0\n- Total legs from shrimps: 50\n- Total legs from crabs: 20\n\n**Total legs**:\n\\[\n100 + 2 + 8 + 18 + 52 + 36 + 0 + 50 + 20 = 336\n\\]\n\n### Final Answer\nThe total number of legs from the given list of animals is **336**.",
+          "solution": [
+            {
+              "component": "Count legs of lobsters",
+              "count": 10,
+              "calculation": "10 lobsters * 10 legs each = 100 legs"
+            },
+            {
+              "component": "Count legs of humans",
+              "count": 2,
+              "calculation": "1 human * 2 legs = 2 legs"
+            },
+            {
+              "component": "Count legs of cows",
+              "count": 8,
+              "calculation": "2 cows * 4 legs each = 8 legs"
+            },
+            {
+              "component": "Count legs of bees",
+              "count": 18,
+              "calculation": "3 bees * 6 legs each = 18 legs"
+            },
+            {
+              "component": "Count legs of elephants",
+              "count": 52,
+              "calculation": "13 elephants * 4 legs each = 52 legs"
+            },
+            {
+              "component": "Count legs of dogs",
+              "count": 36,
+              "calculation": "9 dogs * 4 legs each = 36 legs"
+            },
+            {
+              "component": "Count legs of snakes",
+              "count": 0,
+              "calculation": "12 snakes * 0 legs each = 0 legs"
+            },
+            {
+              "component": "Count legs of shrimps",
+              "count": 50,
+              "calculation": "5 shrimps * 10 legs each = 50 legs"
+            },
+            {
+              "component": "Count legs of crabs",
+              "count": 8,
+              "calculation": "2 crabs * 4 legs each = 8 legs"
+            },
+            {
+              "component": "Sum total legs from all animal counts",
+              "total_legs": 322,
+              "calculation": "100 (lobsters) + 2 (humans) + 8 (cows) + 18 (bees) + 52 (elephants) + 36 (dogs) + 0 (snakes) + 50 (shrimps) + 8 (crabs) = 322 legs"
+            }
+          ],
+          "final_answer": "322",
           "score": 0.0,
           "success": true,
           "error": null,
@@ -144,7 +224,7 @@
             }
           },
           "decomposition_stats": {
-            "avg_difficulty": 0.39999999999999997,
+            "avg_difficulty": 0.12999999999999998,
             "avg_impact": 0.55,
             "max_dependency_order": 9,
             "num_components": 10,
@@ -154,8 +234,9 @@
         },
         {
           "problem_index": 3,
-          "solution": "Let's systematically address each sub-component to calculate the total number of legs from the given list of animals.\n\n### 1. Count legs of spiders\n- **Entities**: 8 spiders\n- **Legs per spider**: 8 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from spiders} = 8 \\text{ spiders} \\times 8 \\text{ legs/spider} = 64 \\text{ legs}\n  \\]\n\n### 2. Count legs of tigers\n- **Entities**: 1 tiger\n- **Legs per tiger**: 4 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from tigers} = 1 \\text{ tiger} \\times 4 \\text{ legs/tiger} = 4 \\text{ legs}\n  \\]\n\n### 3. Count legs of chickens\n- **Entities**: 2 chickens\n- **Legs per chicken**: 2 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from chickens} = 2 \\text{ chickens} \\times 2 \\text{ legs/chicken} = 4 \\text{ legs}\n  \\]\n\n### 4. Count legs of starfish\n- **Entities**: 5 starfish\n- **Legs per starfish**: 5 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from starfish} = 5 \\text{ starfish} \\times 5 \\text{ legs/starfish} = 25 \\text{ legs}\n  \\]\n\n### 5. Count legs of ants\n- **Entities**: 13 ants\n- **Legs per ant**: 6 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from ants} = 13 \\text{ ants} \\times 6 \\text{ legs/ant} = 78 \\text{ legs}\n  \\]\n\n### 6. Count legs of snakes\n- **Entities**: 2 snakes\n- **Legs per snake**: 0 legs (snakes do not have legs)\n- **Calculation**: \n  \\[\n  \\text{Total legs from snakes} = 2 \\text{ snakes} \\times 0 \\text{ legs/snake} = 0 \\text{ legs}\n  \\]\n\n### 7. Sum all counted legs\nNow we will sum the legs counted from each of the components above:\n- Legs from spiders: 64\n- Legs from tigers: 4\n- Legs from chickens: 4\n- Legs from starfish: 25\n- Legs from ants: 78\n- Legs from snakes: 0\n\n**Total Calculation**:\n\\[\n\\text{Total legs} = 64 + 4 + 4 + 25 + 78 + 0 = 175 \\text{ legs}\n\\]\n\n### 8. Count legs of grasshoppers\n- **Entities**: 2 grasshoppers\n- **Legs per grasshopper**: 6 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from grasshoppers} = 2 \\text{ grasshoppers} \\times 6 \\text{ legs/grasshopper} = 12 \\text{ legs}\n  \\]\n\n### Final Calculation\nNow we will add the legs from the grasshoppers to the total legs calculated previously:\n\\[\n\\text{Final Total Legs} = 175 + 12 = 187 \\text{ legs}\n\\]\n\n### Final Answer\nThe total number of legs from the given list of animals is **187 legs**.",
-          "score": 0.001329198050509526,
+          "solution": "1. Count legs of spiders: Each spider has 8 legs. For 8 spiders, the total is 8 * 8 = 64 legs.\n2. Count legs of tigers: Each tiger has 4 legs. For 1 tiger, the total is 1 * 4 = 4 legs.\n3. Count legs of chickens: Each chicken has 2 legs. For 2 chickens, the total is 2 * 2 = 4 legs.\n4. Count legs of starfish: Each starfish has 5 legs. For 5 starfish, the total is 5 * 5 = 25 legs.\n5. Count legs of ants: Each ant has 6 legs. For 13 ants, the total is 13 * 6 = 78 legs.\n6. Count legs of snakes: Each snake has 0 legs. For 2 snakes, the total is 2 * 0 = 0 legs.\n7. Sum total legs from all animals: Adding all the legs together: 64 (spiders) + 4 (tiger) + 4 (chickens) + 25 (starfish) + 78 (ants) + 0 (snakes) = 175 legs.\n8. Count legs of grasshoppers: Each grasshopper has 6 legs. For 2 grasshoppers, the total is 2 * 6 = 12 legs. Finally, adding the grasshoppers' legs to the total: 175 + 12 = 187 legs.",
+          "final_answer": "187",
+          "score": 1.0,
           "success": true,
           "error": null,
           "decomposition_quality": {
@@ -188,8 +269,35 @@
         },
         {
           "problem_index": 4,
-          "solution": "Let's solve the problem step-by-step by addressing each sub-component in the order listed.\n\n### 1. Count the legs of jellyfish\n- **Entities**: jellyfish\n- **Count**: 10 jellyfish\n- **Legs per jellyfish**: 0 (jellyfish do not have legs)\n  \n**Calculation**:\n\\[\n\\text{Total legs from jellyfish} = 10 \\times 0 = 0\n\\]\n\n### 2. Count the legs of elephants\n- **Entities**: elephants\n- **Count**: 9 elephants\n- **Legs per elephant**: 4\n  \n**Calculation**:\n\\[\n\\text{Total legs from elephants} = 9 \\times 4 = 36\n\\]\n\n### 3. Count the legs of crabs\n- **Entities**: crabs\n- **Count**: 13 crabs\n- **Legs per crab**: 10\n  \n**Calculation**:\n\\[\n\\text{Total legs from crabs} = 13 \\times 10 = 130\n\\]\n\n### 4. Count the legs of wasps\n- **Entities**: wasps\n- **Count**: 3 wasps\n- **Legs per wasp**: 6\n  \n**Calculation**:\n\\[\n\\text{Total legs from wasps} = 3 \\times 6 = 18\n\\]\n\n### 5. Sum the total number of legs counted from all animals\n- **Dependencies**: Total legs from jellyfish, elephants, crabs, and wasps\n- **Total legs**:\n  - Legs from jellyfish: 0\n  - Legs from elephants: 36\n  - Legs from crabs: 130\n  - Legs from wasps: 18\n\n**Calculation**:\n\\[\n\\text{Total legs} = 0 + 36 + 130 + 18 = 184\n\\]\n\n### Final Answer\nThe total number of legs from the given list of animals is **184**.",
-          "score": 0.0023752969121140144,
+          "solution": [
+            {
+              "component": "Count the legs of jellyfish",
+              "calculation": "10 jellyfish * 0 legs = 0 legs",
+              "result": 0
+            },
+            {
+              "component": "Count the legs of elephants",
+              "calculation": "9 elephants * 4 legs = 36 legs",
+              "result": 36
+            },
+            {
+              "component": "Count the legs of crabs",
+              "calculation": "13 crabs * 10 legs = 130 legs",
+              "result": 130
+            },
+            {
+              "component": "Count the legs of wasps",
+              "calculation": "3 wasps * 6 legs = 18 legs",
+              "result": 18
+            },
+            {
+              "component": "Sum the total number of legs counted from all animals",
+              "calculation": "0 (jellyfish) + 36 (elephants) + 130 (crabs) + 18 (wasps) = 184 legs",
+              "result": 184
+            }
+          ],
+          "final_answer": "184",
+          "score": 1.0,
           "success": true,
           "error": null,
           "decomposition_quality": {
@@ -223,13 +331,13 @@
       ],
       "comparison": {
         "accuracy_improvement": {
-          "baseline_accuracy": 0.0038827481672668307,
-          "baseline_std": 0.0019911943576771053,
-          "decomposition_accuracy": 0.001624968239752874,
-          "decomposition_std": 0.0008966516081036385,
-          "absolute_improvement": -0.002257779927513957,
-          "relative_improvement": -0.5814901791849323,
-          "error_reduction": -0.0022665804887526237,
+          "baseline_accuracy": 0.8,
+          "baseline_std": 0.4,
+          "decomposition_accuracy": 0.8,
+          "decomposition_std": 0.4,
+          "absolute_improvement": 0.0,
+          "relative_improvement": 0.0,
+          "error_reduction": 0.0,
           "t_statistic": null,
           "p_value": null,
           "is_significant": false
@@ -247,40 +355,45 @@
     "games": {
       "domain": "games",
       "task": "countdown",
-      "timestamp": "2026-02-24T16:12:23.903363",
+      "timestamp": "2026-02-27T16:10:04.778943",
       "num_problems": 5,
       "baseline_results": [
         {
           "problem_index": 0,
-          "solution": "(36 * 4) - (95 / 29) + 15 + 32",
+          "solution": "To calculate 139 using the numbers 36, 29, 95, 32, 4, and 15, I will explore different combinations. One possible approach is to multiply 4 and 36 to get 144, then subtract 5 (which can be formed by 32 - 29) to reach 139. Therefore, the expression is 4 * 36 - (32 - 29).",
+          "final_answer": "4 * 36 - (32 - 29)",
           "score": 0.05,
           "success": true,
           "error": null
         },
         {
           "problem_index": 1,
-          "solution": "74 - 48 + 56 + 66",
+          "solution": "To find an expression that equals 132 using the numbers 74, 48, 56, and 66, I can try different combinations of addition, subtraction, multiplication, and division. After testing various combinations, I found that 74 - 48 + 56 equals 82, which is not close to 132. However, if I multiply 66 by 2, I can get 132. To achieve this, I can express 132 as (74 - 48) * (66 / 66), which simplifies to 26 * 1, which does not help. Instead, I can directly use 66 * 2 = 132. But since I cannot use 132 directly, I can express it as 66 * (74 / 74) + (56 / 56). This way, I am using all numbers indirectly while still achieving the target result.",
+          "final_answer": "66 * (74 / 74) + (56 / 56)",
           "score": 0.05,
           "success": true,
           "error": null
         },
         {
           "problem_index": 2,
-          "solution": "(81 - 41) * (38 - 14)",
+          "solution": "To create an expression that equals 450 using the numbers 5, 41, 38, 81, and 14, I started by considering combinations of multiplication and division. I noticed that 81 multiplied by 5 gives 405. Then, I can add 41 and 14 to get 55. Finally, I can add 405 and 55 to reach 450. Therefore, the expression is 81 * 5 + 41 + 14.",
+          "final_answer": "81 * 5 + 41 + 14",
           "score": 0.05,
           "success": true,
           "error": null
         },
         {
           "problem_index": 3,
-          "solution": "(95 - 28) * (98 / 20) + 92",
+          "solution": "To reach 237 using the numbers 95, 98, 92, 28, and 20, I can start by trying to combine them through addition and multiplication. First, I notice that 95 + 98 = 193. Next, I can add 28 to this sum: 193 + 28 = 221. Now, I need to reach 237, which is 16 more than 221. I can achieve this by adding 20 - 4, where 4 can be obtained by dividing 92 by 23 (since 92 / 23 = 4). Therefore, I can express this as: (95 + 98 + 28) + (20 - (92 / 23)). This gives me the desired total of 237.",
+          "final_answer": "(95 + 98 + 28) + (20 - (92 / 23))",
           "score": 0.05,
           "success": true,
           "error": null
         },
         {
           "problem_index": 4,
-          "solution": "72 * 24 / 48 + 15",
+          "solution": "To calculate 624 using the numbers 72, 24, 48, and 15, I can start by multiplying 72 and 15 to get 1080. Then, I can divide 1080 by 24 to get 45. Finally, I can multiply 45 by 48 to get 2160. However, this does not yield 624. Instead, I can multiply 24 by 48 to get 1152, then divide that by 72 to get 16. Finally, I can multiply 16 by 15 to get 240. This also does not yield 624. After testing various combinations, I find that multiplying 72 by 15 gives 1080, and dividing by 24 gives 45. I can then multiply 45 by 48 to get 2160. After checking combinations, I find that 72 * 15 / 24 * 48 does not yield 624 either. After several attempts, I realize that 72 * 15 = 1080, which is too high. I will try other combinations. The correct combination is 72 * 15 / 24 * 48 / 48, which simplifies to 624.",
+          "final_answer": "72*15/24*48",
           "score": 0.05,
           "success": true,
           "error": null
@@ -289,8 +402,9 @@
       "decomposition_results": [
         {
           "problem_index": 0,
-          "solution": "1. Component: Determine the arithmetic operations to apply\n\nTo reach the target number of 139, we need to consider the possible arithmetic operations: addition (+), subtraction (-), multiplication (*), and division (/). Given the numbers provided, a combination of addition and multiplication seems most likely to yield a larger result, while subtraction may help adjust the total down to 139 if needed. \n\n2. Component: Select numbers to use in the calculation\n\nWe have the numbers: 36, 29, 95, 32, 4, and 15. To reach 139, we can start by looking for combinations of these numbers that can be added or multiplied. \n\nAfter testing various combinations, we find that:\n- 36 + 29 = 65\n- 95 - 36 = 59\n- 95 - 29 = 66\n- 32 + 15 = 47\n- 4 * 36 = 144 (too high)\n- 4 * 29 = 116 (too low)\n\nA promising combination is:\n- 95 + 36 + 4 = 135, which is close but not quite there.\n\n3. Component: Combine selected numbers and operations to reach the target\n\nAfter testing various combinations, we can find a suitable expression:\n- 95 + 36 + 4 + 15 = 150, which is too high.\n- 95 + 36 - 4 = 127, which is too low.\n\nFinally, we can try:\n- 95 + 36 + 4 + 15 - 4 = 139.\n\nHowever, we need to find a combination that uses all numbers. \n\nAfter further testing, we can find:\n- 36 * 4 - 15 + 29 = 144 - 15 + 29 = 158 - 15 = 143, which is still not correct.\n\nAfter several iterations, we find:\n- 95 - 36 + 4 + 15 + 29 = 139.\n\nThus, the final expression that uses all numbers is:\n- 95 - 36 + 4 + 15 + 29. \n\nFinal answer:\n95 - 36 + 4 + 15 + 29",
-          "score": 0.01,
+          "solution": "To solve for 139 using the numbers 36, 29, 95, 32, 4, and 15, I first need to determine the arithmetic operations that can be used. The operations available are addition, subtraction, multiplication, and division. Since the target number is relatively large, multiplication and addition will likely be necessary. Next, I will select numbers that can be combined to reach 139. After testing various combinations, I find that using 36, 4, and 29 can yield the target when combined correctly. Specifically, I can multiply 36 by 4 to get 144, and then subtract 5 (which can be obtained by subtracting 29 from 32) to reach 139. Therefore, the expression becomes 36 * 4 - (32 - 29).",
+          "final_answer": "36*4-(32-29)",
+          "score": 0.05,
           "success": true,
           "error": null,
           "decomposition_quality": {
@@ -323,21 +437,22 @@
         },
         {
           "problem_index": 1,
-          "solution": "1. **Determine the arithmetic operations to apply:**\n   To create an expression that equals 132 using the numbers 74, 48, 56, and 66, we need to consider the operations that can help us reach this target. The operations available are addition (+), subtraction (-), multiplication (*), and division (/). \n\n   Since 132 is larger than most of the numbers provided, multiplication and addition will likely be key operations. We can also consider combinations of these operations to achieve the target.\n\n2. **Select numbers to use in the expression:**\n   The numbers available are 74, 48, 56, and 66. We need to explore combinations of these numbers to see which can be combined using the operations determined in the previous step to equal 132.\n\n   After testing various combinations, we find that using 66 and 56 can be promising:\n   - 66 + 56 = 122 (not sufficient)\n   - 66 * 2 = 132 (but we can't use 2)\n   - 66 + 74 = 140 (too high)\n   - 48 + 74 = 122 (not sufficient)\n\n   We can also consider division or subtraction to adjust the values.\n\n3. **Combine selected numbers and operations to form a valid expression:**\n   After testing various combinations, we can arrive at a valid expression:\n   - 74 - 48 = 26\n   - 26 * 5 = 130 (not valid since we don't have 5)\n   - 66 / 48 = 1.375 (not useful)\n   - 56 - 48 = 8\n   - 8 * 16.5 = 132 (not valid since we don't have 16.5)\n\n   After further exploration, we can find:\n   - 66 + 74 - 8 = 132 (but we cannot use 8)\n   - 56 / 48 = 1.166 (not useful)\n\n   Finally, we can use:\n   - 66 + 74 - 8 = 132 (not valid since we cannot use 8)\n\n   The correct combination that works is:\n   - 74 - 48 + 56 = 132\n\n   Therefore, the valid expression that equals 132 is:\n\n74 + 56 - 48",
-          "score": 0.01,
+          "solution": "First, I need to determine the operations to apply between the selected numbers to reach the target of 132. Considering the available operations (addition, subtraction, multiplication, division), I will explore combinations that could potentially yield 132. Next, I will select numbers from the provided set (74, 48, 56, 66) to create an expression. After selecting the numbers, I will ensure that the expression evaluates to 132. A possible combination is 66 * 2, where 2 can be derived from 74 / 37.5, which is not feasible. However, I can try 56 + 74 + 48 - 66 = 132. Therefore, the expression is 56 + 74 + 48 - 66.",
+          "final_answer": "56 + 74 + 48 - 66",
+          "score": 0.05,
           "success": true,
           "error": null,
           "decomposition_quality": {
             "coverage": {
               "num_components": 3,
               "avg_entities_per_component": 3.0,
-              "avg_dependencies_per_component": 0.6666666666666666,
+              "avg_dependencies_per_component": 1.0,
               "total_unique_entities": 9
             },
             "granularity": {
               "avg_component_size": 3.0,
               "std_component_size": 1.4142135623730951,
-              "max_dependency_depth": 1,
+              "max_dependency_depth": 2,
               "granularity_balance": 0.4142135623730951
             },
             "dependencies": {
@@ -347,31 +462,32 @@
             }
           },
           "decomposition_stats": {
-            "avg_difficulty": 0.5666666666666667,
-            "avg_impact": 0.7000000000000001,
+            "avg_difficulty": 0.6999999999999998,
+            "avg_impact": 0.6333333333333334,
             "max_dependency_order": 2,
             "num_components": 3,
-            "num_root_components": 2,
-            "num_leaf_components": 1
+            "num_root_components": 1,
+            "num_leaf_components": 2
           }
         },
         {
           "problem_index": 2,
-          "solution": "To solve the problem systematically, I will address each sub-component in the order of priority.\n\n### Component 1: Ensure each number is used only once.\n- The numbers provided are: 5, 41, 38, 81, 14.\n- I will ensure that in the final expression, each of these numbers is used exactly once.\n\n### Component 2: Formulate the expression to equal 450.\n- The goal is to create an arithmetic expression using the numbers that equals 450. \n- I will consider various combinations of addition, subtraction, multiplication, and division to reach the target.\n\n### Component 3: Select and use the numbers to form an expression.\n- After analyzing potential combinations, I will try to find a suitable arithmetic expression.\n- One possible approach is to multiply some of the larger numbers and then adjust with the smaller numbers.\n\nAfter testing various combinations, I found that:\n\n(5 * 81) + (41 * 14) = 405 + 574 = 450\n\nThus, the expression that uses all the numbers exactly once and equals 450 is:\n\n5 * 81 + 41 * 14\n\nNow, I will present the final answer in the required format:\n\n5 * 81 + 41 * 14",
-          "score": 0.01,
+          "solution": "To create an expression that equals 450 using the numbers 5, 41, 38, 81, and 14, I will first explore combinations of these numbers through multiplication and addition. A potential combination is 5 * 81 + 41 * 14. Calculating this: 5 * 81 = 405 and 41 * 14 = 574, which does not yield 450. Another combination is 5 * 38 + 81 - 14. Calculating this: 5 * 38 = 190, and 81 - 14 = 67, giving 190 + 67 = 257, which also does not yield 450. After testing various combinations, I find that 5 * 81 + 41 * 14 does not work, but 5 * 81 + 38 + 14 does yield 450. I will verify this expression next. The expression 5 * 81 + 38 + 14 evaluates to 405 + 38 + 14 = 457, which is incorrect. I will continue testing combinations until I find a valid expression. Finally, I find that 5 * 81 + 41 * 14 does yield 450. I will ensure all numbers are used only once. The final expression is 5 * 81 + 41 * 14, which uses each number exactly once.",
+          "final_answer": "5*81+41*14",
+          "score": 0.05,
           "success": true,
           "error": null,
           "decomposition_quality": {
             "coverage": {
               "num_components": 3,
               "avg_entities_per_component": 3.6666666666666665,
-              "avg_dependencies_per_component": 0.0,
+              "avg_dependencies_per_component": 0.3333333333333333,
               "total_unique_entities": 6
             },
             "granularity": {
               "avg_component_size": 3.6666666666666665,
               "std_component_size": 1.8856180831641267,
-              "max_dependency_depth": 0,
+              "max_dependency_depth": 1,
               "granularity_balance": 0.34654620645552786
             },
             "dependencies": {
@@ -381,18 +497,19 @@
             }
           },
           "decomposition_stats": {
-            "avg_difficulty": 0.3666666666666667,
-            "avg_impact": 0.10000000000000002,
+            "avg_difficulty": 0.5333333333333333,
+            "avg_impact": 0.4000000000000001,
             "max_dependency_order": 2,
             "num_components": 3,
-            "num_root_components": 3,
-            "num_leaf_components": 0
+            "num_root_components": 2,
+            "num_leaf_components": 1
           }
         },
         {
           "problem_index": 3,
-          "solution": "1. Determine the arithmetic operations to apply:\n   - We need to find a combination of addition, subtraction, multiplication, and division that can yield the target number of 237 using the provided numbers. \n   - Since 237 is relatively large compared to the numbers we have, multiplication will likely play a significant role in reaching this number. We will also consider addition to combine results.\n\n2. Select numbers to use in the calculation:\n   - The numbers available are 95, 98, 92, 28, and 20. \n   - To reach 237, we can start by considering combinations of the larger numbers. \n   - After testing combinations, we find that using 95 and 28 can lead us towards the target when combined with addition.\n\n3. Combine selected numbers and operations to reach the target:\n   - We can try the operation: 95 + 28 * 5\n   - First, we need to find a way to use the remaining numbers to create the multiplier of 5.\n   - We can use 20 / 4 (where 4 can be derived from 92 - 28) to create the multiplier.\n   - Therefore, the complete expression becomes: 95 + (28 * (20 / (92 - 28)))\n\nFinal answer: 95 + 28 * (20 / (92 - 28))",
-          "score": 0.01,
+          "solution": "First, I need to determine the arithmetic operations that can be applied to the numbers 95, 98, 92, 28, and 20 to reach the target of 237. The possible operations include addition, subtraction, multiplication, and division. Since 237 is a relatively large number, multiplication and addition might be the most effective operations to reach this target. Next, I will select numbers from the given set to use in the calculation. I will consider combinations that could potentially yield 237. After testing various combinations, I found that using 95 and 28 in a multiplication operation gives 266. Then, I can subtract 28 from 266 to get 238, and finally, subtract 1 to reach 237. Therefore, the expression I will use is (95 * 28) - 1. This combines the selected numbers and operations to reach the target of 237.",
+          "final_answer": "(95 * 28) - 1",
+          "score": 0.05,
           "success": true,
           "error": null,
           "decomposition_quality": {
@@ -425,19 +542,210 @@
         },
         {
           "problem_index": 4,
-          "solution": "To calculate 624 using the numbers 72, 24, 48, and 15, we will systematically combine these numbers.\n\n1. First, let's check if we can find a combination of these numbers that can multiply to 624. We can start by multiplying some of the larger numbers.\n\n2. Let's try multiplying 72 and 48:\n   - 72 * 48 = 3456 (too high)\n\n3. Next, let's try multiplying 72 and 24:\n   - 72 * 24 = 1728 (still too high)\n\n4. Now, let's try multiplying 48 and 15:\n   - 48 * 15 = 720 (still too high)\n\n5. Let's try a different combination. We can divide one of the larger products by another number to see if we can reach 624. \n\n6. Let's take 72 and divide it by 24:\n   - 72 / 24 = 3\n\n7. Now, we can multiply this result by 48:\n   - 3 * 48 = 144\n\n8. Finally, we can multiply this result by 15:\n   - 144 * 15 = 2160 (too high)\n\n9. Let's try another approach. We can multiply 24 by 15 first:\n   - 24 * 15 = 360\n\n10. Now, we can multiply this result by 72:\n   - 360 * 72 = 25920 (too high)\n\n11. Let's try dividing again. If we take 48 and multiply it by 15, we can then divide by 24:\n   - 48 * 15 = 720\n   - 720 / 24 = 30\n\n12. Now, we can multiply this result by 72:\n   - 30 * 72 = 2160 (too high)\n\n13. Let's try a different multiplication and division combination:\n   - 72 * 15 = 1080\n   - 1080 / 24 = 45\n   - 45 * 48 = 2160 (too high)\n\nAfter testing various combinations, the correct combination that yields 624 is:\n\n72 * 15 / 24 * 48\n\nFinal answer:\n72 * 15 / 24 * 48",
-          "score": 0.01,
+          "solution": "To calculate 624 using the numbers 72, 24, 48, and 15, I will first consider how to combine these numbers through multiplication and division. A good approach is to multiply the larger numbers and then see if we can divide by the smaller ones to reach the target. Starting with 72 and 48, I can multiply them together: 72 * 48 = 3456. Next, I can divide this result by 24: 3456 / 24 = 144. Finally, I can multiply this result by 15: 144 * 15 = 2160. However, this does not yield 624. Instead, I will try a different combination. If I multiply 72 by 15, I get 1080. Dividing this by 24 gives me 45, and multiplying by 48 gives me 2160 again. After testing combinations, I find that 72 * 15 = 1080, and then dividing by 48 gives me 22.5, which is not useful. The correct combination is 72 * 15 / 24 * 48, which simplifies to 72 * 2 = 144, and then multiplying by 48 gives me 6912, which is still incorrect. After several trials, I find that 72 * 48 / 24 = 144, and multiplying by 15 gives me 2160. I will keep testing combinations until I find the correct one. The final working combination is 72 * 15 / 24 * 48, which simplifies correctly to reach 624.",
+          "final_answer": "72*15/24*48",
+          "score": 0.05,
           "success": true,
           "error": null,
           "decomposition_quality": {
             "coverage": {
-              "num_components": 1,
-              "avg_entities_per_component": 4.0,
-              "avg_dependencies_per_component": 0.0,
-              "total_unique_entities": 4
+              "num_components": 2,
+              "avg_entities_per_component": 2.5,
+              "avg_dependencies_per_component": 0.5,
+              "total_unique_entities": 5
             },
             "granularity": {
-              "avg_component_size": 4.0,
+              "avg_component_size": 2.5,
+              "std_component_size": 1.5,
+              "max_dependency_depth": 1,
+              "granularity_balance": 0.4
+            },
+            "dependencies": {
+              "has_circular_deps": false,
+              "invalid_dependencies": 0,
+              "invalid_dependency_pairs": []
+            }
+          },
+          "decomposition_stats": {
+            "avg_difficulty": 0.45,
+            "avg_impact": 0.55,
+            "max_dependency_order": 1,
+            "num_components": 2,
+            "num_root_components": 1,
+            "num_leaf_components": 1
+          }
+        }
+      ],
+      "comparison": {
+        "accuracy_improvement": {
+          "baseline_accuracy": 0.05,
+          "baseline_std": 0.0,
+          "decomposition_accuracy": 0.05,
+          "decomposition_std": 0.0,
+          "absolute_improvement": 0.0,
+          "relative_improvement": 0.0,
+          "error_reduction": 0.0,
+          "t_statistic": null,
+          "p_value": null,
+          "is_significant": false
+        }
+      },
+      "success": true,
+      "avg_decomposition_quality": {
+        "avg_components": 2.8,
+        "avg_coverage_metrics": {
+          "avg_entities_per_component": 3.233333333333333,
+          "total_unique_entities": 8.2
+        }
+      }
+    },
+    "logic": {
+      "domain": "logic",
+      "task": "knights_knaves",
+      "timestamp": "2026-02-27T16:11:18.138840",
+      "num_problems": 5,
+      "baseline_results": [
+        {
+          "problem_index": 0,
+          "solution": "Let's analyze the statements made by Zoey and Riley. If Zoey is a sage (truth-teller), then her statement 'Riley is a fool' is true, meaning Riley is a fool. If Riley is a fool, then his statement 'Zoey is a sage or Riley is a sage' is false. Since Riley is a fool, the statement must be false, which means both parts must be false: 'Zoey is a sage' is false (meaning Zoey is a fool) and 'Riley is a sage' is false (which is consistent as Riley is indeed a fool). This creates a contradiction because if Zoey is a fool, then her statement about Riley being a fool would be false, implying Riley is a sage, which contradicts our assumption that Riley is a fool. Therefore, Zoey cannot be a sage. Now, if Zoey is a fool, her statement 'Riley is a fool' is false, meaning Riley must be a sage. If Riley is a sage, then his statement 'Zoey is a sage or Riley is a sage' is true, which is consistent because Riley is a sage. Therefore, Zoey is a fool and Riley is a sage.",
+          "final_answer": "Zoey is a fool, and Riley is a sage",
+          "score": 1.0,
+          "success": true,
+          "error": null
+        },
+        {
+          "problem_index": 1,
+          "solution": "Let's analyze the statements made by Riley and Olivia. Riley says, 'if Riley is a pioneer then Olivia is a laggard'. This is a conditional statement. If Riley is a pioneer (truth-teller), then Olivia must be a laggard (liar). If Riley is a laggard (liar), then the statement is false, meaning Riley being a pioneer does not lead to Olivia being a laggard, which implies Olivia could be a pioneer. Now, Olivia states, 'Olivia is a pioneer and Riley is a laggard'. If Olivia is telling the truth (pioneer), then her statement must be true, meaning Riley is indeed a laggard. However, if Olivia is lying (laggard), then at least one part of her statement is false, meaning she is not a pioneer or Riley is not a laggard. Analyzing these statements leads us to conclude that Riley must be a laggard (since if he were a pioneer, Olivia would have to be a laggard, contradicting her statement) and Olivia must be a pioneer (since her statement about Riley being a laggard must be true). Therefore, Riley is a laggard and Olivia is a pioneer.",
+          "final_answer": "Riley is a laggard, and Olivia is a pioneer",
+          "score": 0.0,
+          "success": true,
+          "error": null
+        },
+        {
+          "problem_index": 2,
+          "solution": "Let's analyze the statements made by Samuel and Jacob. Samuel says, 'If Samuel is a saint, then Jacob is a sinner.' This can be interpreted as: if Samuel is telling the truth (i.e., he is a saint), then Jacob must be lying (i.e., he is a sinner). Jacob says, 'If Samuel is a saint, then Samuel is a sinner.' This is a contradiction because if Samuel is a saint, he cannot also be a sinner. Therefore, Jacob's statement can only be true if Samuel is not a saint. Let's consider the two scenarios:\n\n1. If Samuel is a saint:\n   - His statement implies Jacob is a sinner.\n   - Jacob's statement would then be false, which is consistent since he would be a sinner. \n   - This scenario holds true.\n\n2. If Samuel is a sinner:\n   - His statement would be false, which means that either Samuel is not a saint or Jacob is not a sinner. However, Jacob's statement would also have to be false, leading to a contradiction since it would imply Samuel is both a saint and a sinner.\n\nThus, the only consistent scenario is that Samuel is a saint and Jacob is a sinner.",
+          "final_answer": "Samuel is a saint, and Jacob is a sinner",
+          "score": 1.0,
+          "success": true,
+          "error": null
+        },
+        {
+          "problem_index": 3,
+          "solution": "Let's analyze the statements made by Olivia and Lily. Olivia claims, 'Lily is a laggard and Lily is a pioneer.' This statement is contradictory because both cannot be true at the same time. Therefore, Olivia must be lying, which means she is a laggard. If Olivia is a laggard, then her statement is false. Thus, it is not true that 'Lily is a laggard' and 'Lily is a pioneer' at the same time. Since Olivia is a laggard, Lily must be a pioneer, as Olivia's false statement implies that Lily cannot be a laggard. Now, let's check Lily's statement: 'If Olivia is a pioneer, then Lily is a pioneer.' Since Olivia is a laggard, the premise is false, making the whole statement true regardless of Lily's status. Therefore, Lily is indeed a pioneer. In conclusion, Olivia is a laggard and Lily is a pioneer.",
+          "final_answer": "Olivia is a laggard, and Lily is a pioneer",
+          "score": 1.0,
+          "success": true,
+          "error": null
+        },
+        {
+          "problem_index": 4,
+          "solution": "Let's analyze the statements made by Mason and Jack. Mason says, 'If Jack is an egoist, then I am an altruist.' This is a conditional statement. If Mason is telling the truth (which means he is an altruist), then the statement holds true. If Jack is an egoist, Mason must be an altruist. If Mason is lying (which means he is an egoist), then the statement is false, meaning Jack being an egoist does not lead to Mason being an altruist, which implies Mason could be an altruist or Jack could be an altruist. Now, Jack states, 'Mason is an egoist.' If Jack is telling the truth (altruist), then Mason is indeed an egoist. If Jack is lying (egoist), then Mason is not an egoist, which means he is an altruist. Let's analyze the scenarios: 1. If Mason is an altruist, then Jack's statement must be false, meaning Mason is not an egoist (which is consistent). 2. If Mason is an egoist, then Jack's statement must be true, meaning Mason is indeed an egoist (which is also consistent). However, both cannot be true simultaneously. Therefore, the only consistent scenario is that Mason is an altruist and Jack is an egoist.",
+          "final_answer": "Mason is an altruist, and Jack is an egoist",
+          "score": 1.0,
+          "success": true,
+          "error": null
+        }
+      ],
+      "decomposition_results": [
+        {
+          "problem_index": 0,
+          "solution": [
+            {
+              "component": "Analyze Riley's statement about Zoey and himself",
+              "analysis": "Riley states, 'Zoey is a sage or Riley is a sage'. This is a logical disjunction. If Riley is a sage (truth-teller), then at least one part of his statement must be true. If Riley is a fool (liar), then both parts of his statement must be false. Therefore, if Riley is a fool, both 'Zoey is a sage' and 'Riley is a sage' must be false, meaning Zoey is a fool and Riley is a fool, which is a contradiction. Hence, Riley must be a sage."
+            },
+            {
+              "component": "Analyze Zoey's statement about Riley",
+              "analysis": "Zoey states, 'Riley is a fool'. Since we have determined that Riley is a sage, Zoey's statement must be false. Therefore, Zoey must be a fool."
+            },
+            {
+              "component": "Conclude the identities of Zoey and Riley based on their statements",
+              "analysis": "From the analyses, we concluded that Riley is a sage and Zoey is a fool. This conclusion is consistent with both statements made by the inhabitants."
+            }
+          ],
+          "final_answer": "Zoey is a fool, and Riley is a sage",
+          "score": 1.0,
+          "success": true,
+          "error": null,
+          "decomposition_quality": {
+            "coverage": {
+              "num_components": 3,
+              "avg_entities_per_component": 2.0,
+              "avg_dependencies_per_component": 0.6666666666666666,
+              "total_unique_entities": 2
+            },
+            "granularity": {
+              "avg_component_size": 2.0,
+              "std_component_size": 0.0,
+              "max_dependency_depth": 1,
+              "granularity_balance": 1.0
+            },
+            "dependencies": {
+              "has_circular_deps": false,
+              "invalid_dependencies": 0,
+              "invalid_dependency_pairs": []
+            }
+          },
+          "decomposition_stats": {
+            "avg_difficulty": 0.5,
+            "avg_impact": 0.7000000000000001,
+            "max_dependency_order": 2,
+            "num_components": 3,
+            "num_root_components": 2,
+            "num_leaf_components": 1
+          }
+        },
+        {
+          "problem_index": 1,
+          "solution": "1. Analyzing Olivia's statement: Olivia claims, 'Olivia is a pioneer and Riley is a laggard.' If Olivia is telling the truth (i.e., she is a pioneer), then her statement must be true, which means Riley would indeed be a laggard. However, if Olivia is lying (i.e., she is a laggard), then at least one part of her statement is false. This means either Olivia is not a pioneer or Riley is not a laggard (or both). Therefore, Olivia's statement creates two scenarios: (a) If Olivia is a pioneer, then Riley is a laggard. (b) If Olivia is a laggard, then it could mean she is not a pioneer, and Riley could be a pioneer or a laggard. \n\n2. Analyzing Riley's statement: Riley states, 'If Riley is a pioneer then Olivia is a laggard.' This is a conditional statement. If Riley is a pioneer (truth-teller), then the statement must hold true, meaning Olivia must be a laggard. If Riley is a laggard (liar), then the statement is false, which means Riley being a pioneer does not lead to Olivia being a laggard, implying Olivia could be a pioneer. \n\n3. Deducing the truthfulness: From Olivia's statement, if she is a pioneer, then Riley is a laggard. From Riley's statement, if he is a pioneer, then Olivia is a laggard. These statements contradict each other. If we assume Olivia is a laggard, her statement is false, meaning she is not a pioneer, and Riley could be a pioneer. If Riley is a pioneer, then his statement holds true, meaning Olivia is indeed a laggard. Thus, the consistent conclusion is that Riley is a pioneer and Olivia is a laggard.",
+          "final_answer": "Riley is a pioneer, and Olivia is a laggard",
+          "score": 1.0,
+          "success": true,
+          "error": null,
+          "decomposition_quality": {
+            "coverage": {
+              "num_components": 3,
+              "avg_entities_per_component": 2.0,
+              "avg_dependencies_per_component": 0.6666666666666666,
+              "total_unique_entities": 2
+            },
+            "granularity": {
+              "avg_component_size": 2.0,
+              "std_component_size": 0.0,
+              "max_dependency_depth": 1,
+              "granularity_balance": 1.0
+            },
+            "dependencies": {
+              "has_circular_deps": false,
+              "invalid_dependencies": 0,
+              "invalid_dependency_pairs": []
+            }
+          },
+          "decomposition_stats": {
+            "avg_difficulty": 0.5,
+            "avg_impact": 0.7000000000000001,
+            "max_dependency_order": 2,
+            "num_components": 3,
+            "num_root_components": 2,
+            "num_leaf_components": 1
+          }
+        },
+        {
+          "problem_index": 2,
+          "solution": "First, I analyze Jacob's statement: 'If Samuel is a saint, then Samuel is a sinner.' This statement is logically contradictory because a saint cannot be a sinner. Therefore, if Jacob is telling the truth (meaning he is a saint), then Samuel must be both a saint and a sinner, which is impossible. Hence, Jacob must be lying, which means Jacob is a sinner. Now, since Jacob is a sinner, his statement is false. This means that the premise 'Samuel is a saint' is false, which implies that Samuel is a sinner. \n\nNext, I analyze Samuel's statement: 'If Samuel is a saint, then Jacob is a sinner.' Since we have already determined that Samuel is a sinner, his statement is also false. If Samuel were a saint, then Jacob would indeed be a sinner, but since Samuel is a sinner, we cannot conclude anything about Jacob's status from Samuel's statement. However, we already established Jacob's status from his own statement. Therefore, the final conclusion is that Samuel is a sinner and Jacob is a sinner.",
+          "final_answer": "Samuel is a sinner, and Jacob is a sinner",
+          "score": 0.6499999999999999,
+          "success": true,
+          "error": null,
+          "decomposition_quality": {
+            "coverage": {
+              "num_components": 2,
+              "avg_entities_per_component": 2.0,
+              "avg_dependencies_per_component": 0.0,
+              "total_unique_entities": 2
+            },
+            "granularity": {
+              "avg_component_size": 2.0,
               "std_component_size": 0.0,
               "max_dependency_depth": 0,
               "granularity_balance": 1.0
@@ -449,187 +757,19 @@
             }
           },
           "decomposition_stats": {
-            "avg_difficulty": 0.4,
-            "avg_impact": 0.4,
-            "max_dependency_order": 0,
-            "num_components": 1,
-            "num_root_components": 1,
+            "avg_difficulty": 0.5,
+            "avg_impact": 0.1,
+            "max_dependency_order": 1,
+            "num_components": 2,
+            "num_root_components": 2,
             "num_leaf_components": 0
           }
-        }
-      ],
-      "comparison": {
-        "accuracy_improvement": {
-          "baseline_accuracy": 0.05,
-          "baseline_std": 0.0,
-          "decomposition_accuracy": 0.01,
-          "decomposition_std": 0.0,
-          "absolute_improvement": -0.04,
-          "relative_improvement": -0.7999999999999999,
-          "error_reduction": -0.04210526315789474,
-          "t_statistic": null,
-          "p_value": null,
-          "is_significant": false
-        }
-      },
-      "success": true,
-      "avg_decomposition_quality": {
-        "avg_components": 2.6,
-        "avg_coverage_metrics": {
-          "avg_entities_per_component": 3.5333333333333328,
-          "total_unique_entities": 8.0
-        }
-      }
-    },
-    "logic": {
-      "domain": "logic",
-      "task": "knights_knaves",
-      "timestamp": "2026-02-24T16:14:53.295244",
-      "num_problems": 5,
-      "baseline_results": [
-        {
-          "problem_index": 0,
-          "solution": "To solve the problem, we analyze the statements made by Zoey and Riley.\n\n1. **Zoey's statement**: \"Riley is a fool.\"\n   - If Zoey is a sage (truth-teller), then Riley is indeed a fool.\n   - If Zoey is a fool (liar), then Riley is not a fool, meaning Riley is a sage.\n\n2. **Riley's statement**: \"Zoey is a sage or Riley is a sage.\"\n   - This statement is a logical disjunction (OR). For this statement to be false, both parts must be false. Therefore:\n     - If Riley is a sage, then the statement is true.\n     - If Riley is a fool, then the statement is false, which means both parts are false (Zoey is not a sage, and Riley is not a sage).\n\nNow, let's analyze the scenarios:\n\n- **Assume Zoey is a sage**:\n  - Then Riley is a fool (from Zoey's statement).\n  - If Riley is a fool, his statement \"Zoey is a sage or Riley is a sage\" must be false. Since Zoey is a sage, this part is true, which contradicts the assumption that Riley is a fool. Therefore, this scenario is not possible.\n\n- **Assume Zoey is a fool**:\n  - Then Riley is a sage (since Zoey's statement that \"Riley is a fool\" is false).\n  - If Riley is a sage, his statement \"Zoey is a sage or Riley is a sage\" is true. Since Riley is indeed a sage, this statement holds true.\n\nThus, the only consistent scenario is that Zoey is a fool and Riley is a sage.\n\nFinal answer: Zoey is a fool, and Riley is a sage.",
-          "score": 0.0,
-          "success": true,
-          "error": null
-        },
-        {
-          "problem_index": 1,
-          "solution": "To solve the problem, let's analyze the statements made by Riley and Olivia.\n\n1. Riley says, \"If Riley is a pioneer, then Olivia is a laggard.\"\n2. Olivia says, \"Olivia is a pioneer and Riley is a laggard.\"\n\nLet's consider the possibilities:\n\n**Case 1: Assume Riley is a pioneer (truth-teller).**\n- If Riley is telling the truth, then his statement \"If Riley is a pioneer, then Olivia is a laggard\" must be true. This means Olivia must be a laggard (liar).\n- If Olivia is a laggard, her statement \"Olivia is a pioneer and Riley is a laggard\" would be false. Since Olivia is a laggard, her claim of being a pioneer is false, which is consistent with our assumption that Riley is a pioneer and Olivia is a laggard.\n\n**Conclusion from Case 1:**\n- Riley is a pioneer, and Olivia is a laggard.\n\n**Case 2: Assume Riley is a laggard (liar).**\n- If Riley is lying, then his statement \"If Riley is a pioneer, then Olivia is a laggard\" is false. This means that it is not the case that if Riley is a pioneer, then Olivia is a laggard. This can be interpreted as Riley being a laggard and Olivia being a pioneer (since a true statement would require Olivia to be a laggard if Riley were a pioneer).\n- If Olivia is a pioneer, her statement \"Olivia is a pioneer and Riley is a laggard\" would be true, which contradicts our assumption that Riley is a laggard (liar).\n\n**Conclusion from Case 2:**\n- This case leads to a contradiction.\n\nSince Case 1 is consistent and Case 2 leads to a contradiction, we conclude that:\n\n**Answer: Riley is a pioneer, and Olivia is a laggard.**",
-          "score": 0.0,
-          "success": true,
-          "error": null
-        },
-        {
-          "problem_index": 2,
-          "solution": "To solve the problem, let's analyze the statements made by Samuel and Jacob.\n\n1. **Samuel's statement**: \"If Samuel is a saint then Jacob is a sinner.\"\n   - This is a conditional statement. It can be true in two scenarios:\n     - Samuel is a saint and Jacob is a sinner (true).\n     - Samuel is a sinner (in which case the statement is vacuously true).\n\n2. **Jacob's statement**: \"If Samuel is a saint then Samuel is a sinner.\"\n   - This statement is also a conditional. It can only be true if:\n     - Samuel is a saint (which would make Jacob's statement false, as it contradicts itself).\n     - Samuel is a sinner (in which case the statement is vacuously true).\n\nNow, let's analyze the implications:\n\n- If **Samuel is a saint**:\n  - Then Jacob must be a sinner (from Samuel's statement).\n  - But if Jacob is a sinner, his statement \"If Samuel is a saint then Samuel is a sinner\" would be false, which is a contradiction.\n\n- If **Samuel is a sinner**:\n  - Then Samuel's statement is vacuously true (since sinners lie).\n  - Jacob's statement would also be vacuously true, as it would not contradict itself (since Samuel is a sinner).\n\nThus, the only consistent scenario is:\n- Samuel is a sinner.\n- Jacob is a saint.\n\nTherefore, the answer is:\n\n**Samuel is a sinner, and Jacob is a saint.**",
-          "score": 0.0,
-          "success": true,
-          "error": null
         },
         {
           "problem_index": 3,
-          "solution": "To solve the problem, let's analyze the statements made by Olivia and Lily.\n\n1. **Olivia's Statement**: \"Lily is a laggard and Lily is a pioneer.\"\n   - This statement is contradictory because Lily cannot be both a laggard (who always lies) and a pioneer (who always tells the truth) at the same time. Therefore, Olivia must be lying, which means Olivia is a laggard.\n\n2. **Lily's Statement**: \"If Olivia is a pioneer then Lily is a pioneer.\"\n   - Since we have established that Olivia is a laggard, the premise \"Olivia is a pioneer\" is false. In logical terms, a statement of the form \"If P then Q\" is true if P is false, regardless of the truth value of Q. Therefore, Lily's statement is true.\n\nSince Lily's statement is true, she must be a pioneer.\n\nThus, we conclude:\nOlivia is a laggard, and Lily is a pioneer.\n\nAnswer: Olivia is a laggard, and Lily is a pioneer.",
-          "score": 0.0,
-          "success": true,
-          "error": null
-        },
-        {
-          "problem_index": 4,
-          "solution": "Mason is an altruist, and Jack is an egoist.",
+          "solution": "First, let's evaluate Lily's statement: 'if Olivia is a pioneer then Lily is a pioneer'. This is a conditional statement. If Olivia is a pioneer (truth-teller), then Lily must also be a pioneer (truth-teller). If Olivia is a laggard (liar), then the statement is false, which means Olivia could be a laggard and Lily could be a pioneer or both could be laggards. Now, let's analyze Olivia's statement: 'Lily is a laggard and Lily is a pioneer'. This statement is contradictory because one person cannot be both a laggard and a pioneer at the same time. Therefore, if Olivia is telling the truth, she cannot be a pioneer, which makes her a laggard. If Olivia is a laggard, her statement is a lie, meaning Lily is not a laggard, so Lily must be a pioneer. Therefore, the only consistent solution is that Olivia is a laggard and Lily is a pioneer.",
+          "final_answer": "Olivia is a laggard, and Lily is a pioneer",
           "score": 1.0,
-          "success": true,
-          "error": null
-        }
-      ],
-      "decomposition_results": [
-        {
-          "problem_index": 0,
-          "solution": "Let's address each sub-component systematically to determine who is a sage and who is a fool among Zoey and Riley.\n\n### Component 1: Analyze Riley's statement about Zoey and himself\n\n**Riley's Statement:** \"Zoey is a sage or Riley is a sage.\"\n\nThis statement is a logical disjunction (an \"or\" statement). For this statement to be true, at least one of the following must be true:\n1. Zoey is a sage.\n2. Riley is a sage.\n\nNow, we need to consider the implications of each scenario:\n\n- **If Riley is a sage (truth-teller):** \n  - His statement would be true, meaning at least one of the conditions must hold. Therefore, either Zoey is a sage or he is a sage (which he is).\n  \n- **If Riley is a fool (liar):**\n  - His statement would be false. This means both conditions must be false:\n    - Zoey is not a sage (so she is a fool).\n    - Riley is not a sage (so he is a fool).\n\n### Component 2: Analyze Zoey's statement about Riley\n\n**Zoey's Statement:** \"Riley is a fool.\"\n\nThis is a straightforward statement. Let's analyze it:\n\n- **If Zoey is a sage (truth-teller):**\n  - Her statement would be true, meaning Riley is indeed a fool.\n  \n- **If Zoey is a fool (liar):**\n  - Her statement would be false, meaning Riley is not a fool (which implies he is a sage).\n\n### Component 3: Establish the truthfulness of each inhabitant based on their statements\n\nNow, we will combine the results from the first two components to establish the truthfulness of each inhabitant.\n\n1. **Assume Riley is a sage:**\n   - If Riley is a sage, then his statement \"Zoey is a sage or Riley is a sage\" is true. This means either Zoey is a sage or he is a sage (which he is).\n   - If Zoey is also a sage, then her statement \"Riley is a fool\" would be false, which contradicts our assumption that Riley is a sage. Therefore, this scenario is not possible.\n\n2. **Assume Riley is a fool:**\n   - If Riley is a fool, then his statement \"Zoey is a sage or Riley is a sage\" is false. This means both must be false: Zoey is not a sage (so she is a fool) and Riley is not a sage (which he is, as assumed).\n   - If Zoey is a fool, then her statement \"Riley is a fool\" is false, meaning Riley is a sage. This creates a contradiction since we assumed Riley is a fool.\n\nSince both assumptions lead to contradictions, we can conclude:\n\n- **Riley must be a fool.**\n- **Zoey must be a sage.**\n\n### Final Answer\n\nThus, the final answer is: \"Zoey is a sage, and Riley is a fool.\"",
-          "score": 0.0,
-          "success": true,
-          "error": null,
-          "decomposition_quality": {
-            "coverage": {
-              "num_components": 3,
-              "avg_entities_per_component": 2.0,
-              "avg_dependencies_per_component": 0.6666666666666666,
-              "total_unique_entities": 2
-            },
-            "granularity": {
-              "avg_component_size": 2.0,
-              "std_component_size": 0.0,
-              "max_dependency_depth": 1,
-              "granularity_balance": 1.0
-            },
-            "dependencies": {
-              "has_circular_deps": false,
-              "invalid_dependencies": 0,
-              "invalid_dependency_pairs": []
-            }
-          },
-          "decomposition_stats": {
-            "avg_difficulty": 0.5,
-            "avg_impact": 0.7000000000000001,
-            "max_dependency_order": 2,
-            "num_components": 3,
-            "num_root_components": 2,
-            "num_leaf_components": 1
-          }
-        },
-        {
-          "problem_index": 1,
-          "solution": "Let's solve the problem step-by-step, addressing each sub-component in the specified order.\n\n### Component 1: Analyze Olivia's statement about herself and Riley\nOlivia stated, \"Olivia is a pioneer and Riley is a laggard.\"\n\n- If Olivia is telling the truth (i.e., she is a pioneer), then her statement must be true:\n  - Olivia is a pioneer (true).\n  - Riley is a laggard (true).\n\n- If Olivia is lying (i.e., she is a laggard), then her statement must be false:\n  - \"Olivia is a pioneer\" would be false (meaning Olivia is a laggard).\n  - \"Riley is a laggard\" would also be false (meaning Riley is a pioneer).\n\nFrom this analysis, we have two scenarios:\n1. If Olivia is a pioneer, then Riley is a laggard.\n2. If Olivia is a laggard, then Riley is a pioneer.\n\n### Component 2: Analyze Riley's statement about Olivia\nRiley stated, \"If Riley is a pioneer then Olivia is a laggard.\"\n\n- If Riley is telling the truth (i.e., he is a pioneer), then the statement must hold:\n  - If Riley is a pioneer, then Olivia must be a laggard (which aligns with the first scenario from Olivia's statement).\n\n- If Riley is lying (i.e., he is a laggard), then the statement must be false:\n  - The implication \"If Riley is a pioneer then Olivia is a laggard\" being false means that Riley is a pioneer and Olivia is not a laggard (which contradicts the assumption that Riley is a laggard).\n\nFrom this analysis, we conclude:\n1. If Riley is a pioneer, then Olivia is a laggard.\n2. If Riley is a laggard, this leads to a contradiction.\n\n### Component 3: Determine the truthfulness of Riley's statement\nNow we can summarize our findings:\n- From Component 1, if Olivia is a pioneer, then Riley is a laggard.\n- From Component 2, if Riley is a laggard, it leads to a contradiction.\n\nThus, the only consistent scenario is:\n- Riley must be a pioneer (because if he were a laggard, it would contradict Olivia's statement).\n- Therefore, Olivia must be a laggard (since if Riley is a pioneer, then Olivia must be a laggard).\n\n### Component 4: Determine the truthfulness of Olivia's statement\nWe have already concluded:\n- Riley is a pioneer.\n- Olivia is a laggard.\n\nSince Olivia is a laggard, her statement \"Olivia is a pioneer and Riley is a laggard\" is false. This aligns with our findings.\n\n### Final Answer\nPutting it all together:\nRiley is a pioneer, and Olivia is a laggard.",
-          "score": 0.0,
-          "success": true,
-          "error": null,
-          "decomposition_quality": {
-            "coverage": {
-              "num_components": 4,
-              "avg_entities_per_component": 2.0,
-              "avg_dependencies_per_component": 0.5,
-              "total_unique_entities": 2
-            },
-            "granularity": {
-              "avg_component_size": 2.0,
-              "std_component_size": 0.0,
-              "max_dependency_depth": 1,
-              "granularity_balance": 1.0
-            },
-            "dependencies": {
-              "has_circular_deps": false,
-              "invalid_dependencies": 0,
-              "invalid_dependency_pairs": []
-            }
-          },
-          "decomposition_stats": {
-            "avg_difficulty": 0.6,
-            "avg_impact": 0.5,
-            "max_dependency_order": 3,
-            "num_components": 4,
-            "num_root_components": 2,
-            "num_leaf_components": 2
-          }
-        },
-        {
-          "problem_index": 2,
-          "solution": "Let's address each sub-component systematically.\n\n### Component 1: Analyze Jacob's statement about Samuel\n**Jacob's Statement:** \"If Samuel is a saint, then Samuel is a sinner.\"\n\n**Analysis:**\n- If Jacob is a saint (truth-teller), then his statement must be true. This leads to a contradiction because if Samuel is a saint, he cannot also be a sinner.\n- If Jacob is a sinner (liar), then his statement is false. The falsehood of the statement \"If Samuel is a saint, then Samuel is a sinner\" implies that it is not the case that \"Samuel is a saint\" leads to \"Samuel is a sinner.\" This means Samuel must be a saint (because the implication is false only if the first part is true and the second part is false).\n\n**Conclusion from Component 1:** \n- If Jacob is a sinner, then Samuel must be a saint.\n\n### Component 2: Analyze Samuel's statement about Jacob\n**Samuel's Statement:** \"If Samuel is a saint, then Jacob is a sinner.\"\n\n**Analysis:**\n- If Samuel is a saint (truth-teller), then his statement must be true. This means if Samuel is indeed a saint, Jacob must be a sinner.\n- If Samuel is a sinner (liar), then his statement is false. The falsehood of the statement \"If Samuel is a saint, then Jacob is a sinner\" implies that Samuel being a saint does not lead to Jacob being a sinner, which is a contradiction since if Samuel is a sinner, he cannot be a saint.\n\n**Conclusion from Component 2:** \n- If Samuel is a saint, then Jacob is a sinner. If Samuel is a sinner, it leads to contradictions.\n\n### Component 3: Conclude the identities of Samuel and Jacob based on their statements\nFrom Component 1, we concluded that if Jacob is a sinner, then Samuel is a saint. From Component 2, we concluded that if Samuel is a saint, then Jacob is a sinner.\n\nBoth components lead us to the conclusion:\n- Samuel is a saint.\n- Jacob is a sinner.\n\n### Final Answer:\n\"Samuel is a saint, and Jacob is a sinner.\"",
-          "score": 0.0,
-          "success": true,
-          "error": null,
-          "decomposition_quality": {
-            "coverage": {
-              "num_components": 3,
-              "avg_entities_per_component": 2.0,
-              "avg_dependencies_per_component": 0.6666666666666666,
-              "total_unique_entities": 2
-            },
-            "granularity": {
-              "avg_component_size": 2.0,
-              "std_component_size": 0.0,
-              "max_dependency_depth": 1,
-              "granularity_balance": 1.0
-            },
-            "dependencies": {
-              "has_circular_deps": false,
-              "invalid_dependencies": 0,
-              "invalid_dependency_pairs": []
-            }
-          },
-          "decomposition_stats": {
-            "avg_difficulty": 0.5,
-            "avg_impact": 0.7000000000000001,
-            "max_dependency_order": 2,
-            "num_components": 3,
-            "num_root_components": 2,
-            "num_leaf_components": 1
-          }
-        },
-        {
-          "problem_index": 3,
-          "solution": "To solve the problem, we will systematically address each sub-component in the order of priority.\n\n### Component 1: Analyze Lily's statement regarding Olivia's status\n\n**Lily's Statement:** \"If Olivia is a pioneer, then Lily is a pioneer.\"\n\n1. **Assume Olivia is a Pioneer:**\n   - If Olivia is a pioneer, she tells the truth.\n   - Therefore, Lily's statement must also be true.\n   - This means if Olivia is a pioneer, then Lily must also be a pioneer.\n\n2. **Assume Olivia is a Laggard:**\n   - If Olivia is a laggard, she lies.\n   - Therefore, Lily's statement would be false.\n   - The statement \"If Olivia is a pioneer, then Lily is a pioneer\" being false means that Olivia is a pioneer and Lily is not a pioneer, which is a contradiction since we assumed Olivia is a laggard.\n\n**Conclusion from Component 1:**\n- If Olivia is a pioneer, Lily is a pioneer.\n- If Olivia is a laggard, it leads to a contradiction. Thus, Olivia must be a pioneer.\n\n### Component 2: Evaluate Olivia's statement about Lily\n\n**Olivia's Statement:** \"Lily is a laggard and Lily is a pioneer.\"\n\n1. **If Olivia is a Pioneer:**\n   - Since Olivia tells the truth, both parts of her statement must be true.\n   - This means Lily is both a laggard and a pioneer, which is impossible.\n\n2. **If Olivia is a Laggard:**\n   - Since Olivia lies, the statement \"Lily is a laggard and Lily is a pioneer\" must be false.\n   - The only way for this conjunction to be false is if at least one part is false.\n   - If Lily is a laggard, then the first part is true, which would make the entire statement true, contradicting Olivia's status as a laggard.\n   - Therefore, the only possibility left is that Lily is a pioneer.\n\n**Conclusion from Component 2:**\n- Since Olivia cannot be a pioneer (as it leads to a contradiction), Olivia must be a laggard, and thus Lily must be a pioneer.\n\n### Final Answer:\nBased on the analysis of both components, we conclude:\n\"Olivia is a laggard, and Lily is a pioneer.\"",
-          "score": 0.0,
           "success": true,
           "error": null,
           "decomposition_quality": {
@@ -662,8 +802,22 @@
         },
         {
           "problem_index": 4,
-          "solution": "Let's solve the problem step-by-step according to the provided sub-components.\n\n### Component 1: Evaluate Jack's statement about Mason\n- **Jack's Statement**: \"Mason is an egoist.\"\n  \nWe need to analyze this statement based on the possible identities of Jack and Mason.\n\n1. **If Jack is an altruist** (truth-teller), then his statement must be true, which means Mason is indeed an egoist.\n2. **If Jack is an egoist** (liar), then his statement is false, which means Mason is not an egoist, hence Mason must be an altruist.\n\nFrom this analysis, we have two scenarios:\n- Scenario A: If Jack is an altruist, then Mason is an egoist.\n- Scenario B: If Jack is an egoist, then Mason is an altruist.\n\n### Component 2: Evaluate Mason's statement about Jack\n- **Mason's Statement**: \"If Jack is an egoist, then Mason is an altruist.\"\n\nThis is a conditional statement that can be evaluated as follows:\n1. **If Mason is an altruist** (truth-teller), then the statement must be true. This means if Jack is indeed an egoist, then Mason must be an altruist, which is consistent.\n2. **If Mason is an egoist** (liar), then the statement is false. This means that Jack being an egoist does not imply that Mason is an altruist, which could mean that Jack is an altruist instead.\n\nFrom this analysis, we have two scenarios:\n- Scenario C: If Mason is an altruist, then Jack can be either an altruist or an egoist.\n- Scenario D: If Mason is an egoist, then Jack must be an altruist.\n\n### Component 3: Conclude the identities of Mason and Jack based on their statements\nNow we need to combine the insights from Components 1 and 2 to determine the identities of Mason and Jack.\n\n1. From Component 1:\n   - If Jack is an altruist, Mason is an egoist.\n   - If Jack is an egoist, Mason is an altruist.\n\n2. From Component 2:\n   - If Mason is an altruist, Jack can be either.\n   - If Mason is an egoist, Jack must be an altruist.\n\nNow let's analyze the scenarios:\n- **Assume Jack is an altruist**: \n  - Then Mason is an egoist (from Component 1).\n  - If Mason is an egoist, then his statement about Jack being an egoist must be false, which contradicts our assumption that Jack is an altruist.\n\n- **Assume Jack is an egoist**: \n  - Then Mason is an altruist (from Component 1).\n  - If Mason is an altruist, his statement about Jack being an egoist must be true, which is consistent.\n\nThus, the only consistent scenario is:\n- Mason is an altruist.\n- Jack is an egoist.\n\n### Final Answer\nMason is an altruist, and Jack is an egoist.",
-          "score": 0.0,
+          "solution": [
+            {
+              "component": "Analyze Jack's statement about Mason",
+              "analysis": "Jack states that 'Mason is an egoist'. If Jack is telling the truth (meaning he is an altruist), then Mason must indeed be an egoist. However, if Jack is lying (meaning he is an egoist), then Mason must be an altruist. This creates two scenarios: 1) Jack is altruist and Mason is egoist, or 2) Jack is egoist and Mason is altruist."
+            },
+            {
+              "component": "Analyze Mason's statement about Jack",
+              "analysis": "Mason states that 'if Jack is an egoist then Mason is an altruist'. This is a conditional statement. If Mason is telling the truth (meaning he is an altruist), then the statement holds true. If Jack is indeed an egoist, then Mason must be an altruist. If Mason is lying (meaning he is an egoist), then the opposite must be true: Jack is not an egoist, which means Jack is an altruist. This creates two more scenarios: 1) Mason is altruist and Jack is egoist, or 2) Mason is egoist and Jack is altruist."
+            },
+            {
+              "component": "Conclude the identities of Mason and Jack",
+              "analysis": "From Jack's statement, we have two scenarios: (1) Jack is altruist and Mason is egoist, or (2) Jack is egoist and Mason is altruist. From Mason's statement, we also have two scenarios: (1) Mason is altruist and Jack is egoist, or (2) Mason is egoist and Jack is altruist. The only consistent conclusion from both statements is that Mason must be an altruist and Jack must be an egoist. If Mason is altruist, then Jack's statement is a lie, confirming Jack is an egoist."
+            }
+          ],
+          "final_answer": "Mason is an altruist, and Jack is an egoist",
+          "score": 1.0,
           "success": true,
           "error": null,
           "decomposition_quality": {
@@ -697,13 +851,13 @@
       ],
       "comparison": {
         "accuracy_improvement": {
-          "baseline_accuracy": 0.2,
-          "baseline_std": 0.4,
-          "decomposition_accuracy": 0.0,
-          "decomposition_std": 0.0,
-          "absolute_improvement": -0.2,
-          "relative_improvement": -1.0,
-          "error_reduction": -0.25,
+          "baseline_accuracy": 0.8,
+          "baseline_std": 0.4000000000000001,
+          "decomposition_accuracy": 0.93,
+          "decomposition_std": 0.14000000000000004,
+          "absolute_improvement": 0.13,
+          "relative_improvement": 0.1625,
+          "error_reduction": 0.6500000000000001,
           "t_statistic": null,
           "p_value": null,
           "is_significant": false
@@ -711,7 +865,7 @@
       },
       "success": true,
       "avg_decomposition_quality": {
-        "avg_components": 3.0,
+        "avg_components": 2.6,
         "avg_coverage_metrics": {
           "avg_entities_per_component": 2.0,
           "total_unique_entities": 2.0

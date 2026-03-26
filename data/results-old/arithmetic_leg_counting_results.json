@@ -1,0 +1,237 @@
+{
+  "domain": "arithmetic",
+  "task": "leg_counting",
+  "timestamp": "2026-02-24T16:10:14.377424",
+  "num_problems": 5,
+  "baseline_results": [
+    {
+      "problem_index": 0,
+      "solution": "To find the total number of legs, we need to know how many legs each type of animal has:\n\n- Sea slugs: 0 legs\n- Deers: 4 legs each\n- Giraffes: 4 legs each\n- Elephants: 4 legs each\n\nNow, we can calculate the total number of legs for each animal:\n\n1. Sea slugs: 3 sea slugs \u00d7 0 legs = 0 legs\n2. Deers: 12 deers \u00d7 4 legs = 48 legs\n3. Giraffes: 2 giraffes \u00d7 4 legs = 8 legs\n4. Elephants: 11 elephants \u00d7 4 legs = 44 legs\n\nNow, we add all the legs together:\n\nTotal legs = 0 + 48 + 8 + 44 = 100 legs\n\nTherefore, the total number of legs is **100**.",
+      "score": 0.005545286506469501,
+      "success": true,
+      "error": null
+    },
+    {
+      "problem_index": 1,
+      "solution": "To calculate the total number of legs, we need to know how many legs each type of animal has:\n\n- Sheep: 4 legs each\n- Dogs: 4 legs each\n- Praying mantises: 6 legs each\n\nNow, we can calculate the total number of legs for each type of animal:\n\n1. **Sheep**: \n   \\( 6 \\text{ sheep} \\times 4 \\text{ legs/sheep} = 24 \\text{ legs} \\)\n\n2. **Dogs**: \n   \\( 11 \\text{ dogs} \\times 4 \\text{ legs/dog} = 44 \\text{ legs} \\)\n\n3. **Praying mantises**: \n   \\( 12 \\text{ mantises} \\times 6 \\text{ legs/mantis} = 72 \\text{ legs} \\)\n\nNow, we add all the legs together:\n\n\\[\n24 \\text{ legs (sheep)} + 44 \\text{ legs (dogs)} + 72 \\text{ legs (mantises)} = 140 \\text{ legs}\n\\]\n\nTherefore, the total number of legs is **140**.",
+      "score": 0.004267425320056899,
+      "success": true,
+      "error": null
+    },
+    {
+      "problem_index": 2,
+      "solution": "To calculate the total number of legs, we need to know the number of legs each type of animal has:\n\n- Crab: 10 legs\n- Lobster: 10 legs\n- Human: 2 legs\n- Cow: 4 legs\n- Bee: 6 legs\n- Elephant: 4 legs\n- Dog: 4 legs\n- Snake: 0 legs\n- Shrimp: 10 legs\n\nNow, we can calculate the total number of legs for each type of animal:\n\n1. Crabs: 2 crabs \u00d7 10 legs = 20 legs\n2. Lobsters: 10 lobsters \u00d7 10 legs = 100 legs\n3. Human: 1 human \u00d7 2 legs = 2 legs\n4. Cows: 2 cows \u00d7 4 legs = 8 legs\n5. Bees: 3 bees \u00d7 6 legs = 18 legs\n6. Elephants: 13 elephants \u00d7 4 legs = 52 legs\n7. Dogs: 9 dogs \u00d7 4 legs = 36 legs\n8. Snakes: 12 snakes \u00d7 0 legs = 0 legs\n9. Shrimps: 5 shrimps \u00d7 10 legs = 50 legs\n\nNow, we sum all the legs:\n\n20 + 100 + 2 + 8 + 18 + 52 + 36 + 0 + 50 = 336 legs\n\nTherefore, the total number of legs is **336**.",
+      "score": 0.0,
+      "success": true,
+      "error": null
+    },
+    {
+      "problem_index": 3,
+      "solution": "To calculate the total number of legs, we need to know the number of legs each type of animal has:\n\n- Grasshoppers: 6 legs each\n- Spiders: 8 legs each\n- Tigers: 4 legs each\n- Chickens: 2 legs each\n- Starfish: 5 legs each\n- Ants: 6 legs each\n- Snakes: 0 legs each\n\nNow, we can calculate the total number of legs for each type of animal:\n\n1. Grasshoppers: 2 * 6 = 12 legs\n2. Spiders: 8 * 8 = 64 legs\n3. Tigers: 1 * 4 = 4 legs\n4. Chickens: 2 * 2 = 4 legs\n5. Starfish: 5 * 5 = 25 legs\n6. Ants: 13 * 6 = 78 legs\n7. Snakes: 2 * 0 = 0 legs\n\nNow, we sum all the legs:\n\nTotal legs = 12 + 64 + 4 + 4 + 25 + 78 + 0 = 187 legs\n\nTherefore, the total number of legs is **187**.",
+      "score": 0.004524886877828055,
+      "success": true,
+      "error": null
+    },
+    {
+      "problem_index": 4,
+      "solution": "To calculate the total number of legs, we need to know how many legs each type of animal has:\n\n- Wasps: 6 legs each\n- Jellyfish: 0 legs\n- Elephants: 4 legs each\n- Crabs: 10 legs each\n\nNow, we can calculate the total number of legs for each type of animal:\n\n1. Wasps: 3 wasps \u00d7 6 legs = 18 legs\n2. Jellyfish: 10 jellyfish \u00d7 0 legs = 0 legs\n3. Elephants: 9 elephants \u00d7 4 legs = 36 legs\n4. Crabs: 13 crabs \u00d7 10 legs = 130 legs\n\nNow, we add all the legs together:\n\nTotal legs = 18 (wasps) + 0 (jellyfish) + 36 (elephants) + 130 (crabs) = 184 legs\n\nTherefore, the total number of legs is **184**.",
+      "score": 0.005076142131979695,
+      "success": true,
+      "error": null
+    }
+  ],
+  "decomposition_results": [
+    {
+      "problem_index": 0,
+      "solution": "Let's address each sub-component systematically to find the total number of legs from the given list of animals.\n\n### 1. Count legs of deers\n- **Entities:** 12 deers\n- **Legs per deer:** 4\n- **Calculation:** \n  \\[\n  \\text{Total legs from deers} = 12 \\text{ deers} \\times 4 \\text{ legs/deer} = 48 \\text{ legs}\n  \\]\n\n### 2. Count legs of giraffes\n- **Entities:** 2 giraffes\n- **Legs per giraffe:** 4\n- **Calculation:** \n  \\[\n  \\text{Total legs from giraffes} = 2 \\text{ giraffes} \\times 4 \\text{ legs/giraffe} = 8 \\text{ legs}\n  \\]\n\n### 3. Count legs of elephants\n- **Entities:** 11 elephants\n- **Legs per elephant:** 4\n- **Calculation:** \n  \\[\n  \\text{Total legs from elephants} = 11 \\text{ elephants} \\times 4 \\text{ legs/elephant} = 44 \\text{ legs}\n  \\]\n\n### 4. Count legs of sea slugs\n- **Entities:** 3 sea slugs\n- **Legs per sea slug:** 0 (sea slugs do not have legs)\n- **Calculation:** \n  \\[\n  \\text{Total legs from sea slugs} = 3 \\text{ sea slugs} \\times 0 \\text{ legs/sea slug} = 0 \\text{ legs}\n  \\]\n\n### 5. Sum total legs from all animals\n- **Dependencies:** Total legs from deers, giraffes, elephants, and sea slugs\n- **Calculations:**\n  - Total legs from deers: 48\n  - Total legs from giraffes: 8\n  - Total legs from elephants: 44\n  - Total legs from sea slugs: 0\n- **Final Calculation:**\n  \\[\n  \\text{Total legs} = 48 + 8 + 44 + 0 = 100 \\text{ legs}\n  \\]\n\n### Final Answer\nThe total number of legs from the given list of animals is **100 legs**.",
+      "score": 0.002061855670103093,
+      "success": true,
+      "error": null,
+      "decomposition_quality": {
+        "coverage": {
+          "num_components": 5,
+          "avg_entities_per_component": 1.0,
+          "avg_dependencies_per_component": 0.8,
+          "total_unique_entities": 5
+        },
+        "granularity": {
+          "avg_component_size": 1.0,
+          "std_component_size": 0.0,
+          "max_dependency_depth": 1,
+          "granularity_balance": 1.0
+        },
+        "dependencies": {
+          "has_circular_deps": false,
+          "invalid_dependencies": 0,
+          "invalid_dependency_pairs": []
+        }
+      },
+      "decomposition_stats": {
+        "avg_difficulty": 0.16,
+        "avg_impact": 0.66,
+        "max_dependency_order": 4,
+        "num_components": 5,
+        "num_root_components": 4,
+        "num_leaf_components": 1
+      }
+    },
+    {
+      "problem_index": 1,
+      "solution": "Let's solve the problem step-by-step according to the provided sub-components.\n\n### Step 1: Calculate the total number of legs from dogs\n\n**Entities:** 11 dogs  \n**Legs per dog:** 4\n\n**Calculation:**\n\\[\n\\text{Total legs from dogs} = \\text{Number of dogs} \\times \\text{Legs per dog} = 11 \\times 4 = 44\n\\]\n\n### Step 2: Calculate the total number of legs from praying mantises\n\n**Entities:** 12 praying mantises  \n**Legs per praying mantis:** 6\n\n**Calculation:**\n\\[\n\\text{Total legs from praying mantises} = \\text{Number of praying mantises} \\times \\text{Legs per praying mantis} = 12 \\times 6 = 72\n\\]\n\n### Step 3: Calculate the total number of legs from sheeps\n\n**Entities:** 6 sheeps  \n**Legs per sheep:** 4\n\n**Calculation:**\n\\[\n\\text{Total legs from sheeps} = \\text{Number of sheeps} \\times \\text{Legs per sheep} = 6 \\times 4 = 24\n\\]\n\n### Step 4: Sum the total number of legs from all animals\n\nNow we will sum the total legs calculated from each type of animal.\n\n**Total legs from all animals:**\n\\[\n\\text{Total legs} = \\text{Total legs from dogs} + \\text{Total legs from praying mantises} + \\text{Total legs from sheeps}\n\\]\n\\[\n\\text{Total legs} = 44 + 72 + 24 = 140\n\\]\n\n### Final Answer:\nThe total number of legs from 6 sheeps, 11 dogs, and 12 praying mantises is **140**.",
+      "score": 0.0023584905660377358,
+      "success": true,
+      "error": null,
+      "decomposition_quality": {
+        "coverage": {
+          "num_components": 4,
+          "avg_entities_per_component": 1.0,
+          "avg_dependencies_per_component": 0.75,
+          "total_unique_entities": 4
+        },
+        "granularity": {
+          "avg_component_size": 1.0,
+          "std_component_size": 0.0,
+          "max_dependency_depth": 1,
+          "granularity_balance": 1.0
+        },
+        "dependencies": {
+          "has_circular_deps": false,
+          "invalid_dependencies": 0,
+          "invalid_dependency_pairs": []
+        }
+      },
+      "decomposition_stats": {
+        "avg_difficulty": 0.4,
+        "avg_impact": 0.7000000000000001,
+        "max_dependency_order": 3,
+        "num_components": 4,
+        "num_root_components": 3,
+        "num_leaf_components": 1
+      }
+    },
+    {
+      "problem_index": 2,
+      "solution": "To solve the problem of counting the total number of legs from the given list of animals, we will address each sub-component systematically, following the priority order provided.\n\n### 1. Calculate the total number of legs for lobsters\n- **Entities**: 10 lobsters\n- **Legs per lobster**: 10\n- **Total legs for lobsters**: \n  \\[\n  10 \\text{ lobsters} \\times 10 \\text{ legs/lobster} = 100 \\text{ legs}\n  \\]\n\n### 2. Calculate the total number of legs for humans\n- **Entities**: 1 human\n- **Legs per human**: 2\n- **Total legs for humans**: \n  \\[\n  1 \\text{ human} \\times 2 \\text{ legs/human} = 2 \\text{ legs}\n  \\]\n\n### 3. Calculate the total number of legs for cows\n- **Entities**: 2 cows\n- **Legs per cow**: 4\n- **Total legs for cows**: \n  \\[\n  2 \\text{ cows} \\times 4 \\text{ legs/cow} = 8 \\text{ legs}\n  \\]\n\n### 4. Calculate the total number of legs for bees\n- **Entities**: 3 bees\n- **Legs per bee**: 6\n- **Total legs for bees**: \n  \\[\n  3 \\text{ bees} \\times 6 \\text{ legs/bee} = 18 \\text{ legs}\n  \\]\n\n### 5. Calculate the total number of legs for elephants\n- **Entities**: 13 elephants\n- **Legs per elephant**: 4\n- **Total legs for elephants**: \n  \\[\n  13 \\text{ elephants} \\times 4 \\text{ legs/elephant} = 52 \\text{ legs}\n  \\]\n\n### 6. Calculate the total number of legs for dogs\n- **Entities**: 9 dogs\n- **Legs per dog**: 4\n- **Total legs for dogs**: \n  \\[\n  9 \\text{ dogs} \\times 4 \\text{ legs/dog} = 36 \\text{ legs}\n  \\]\n\n### 7. Calculate the total number of legs for snakes\n- **Entities**: 12 snakes\n- **Legs per snake**: 0 (snakes have no legs)\n- **Total legs for snakes**: \n  \\[\n  12 \\text{ snakes} \\times 0 \\text{ legs/snake} = 0 \\text{ legs}\n  \\]\n\n### 8. Calculate the total number of legs for shrimps\n- **Entities**: 5 shrimps\n- **Legs per shrimp**: 10\n- **Total legs for shrimps**: \n  \\[\n  5 \\text{ shrimps} \\times 10 \\text{ legs/shrimp} = 50 \\text{ legs}\n  \\]\n\n### 9. Calculate the total number of legs for crabs\n- **Entities**: 2 crabs\n- **Legs per crab**: 10\n- **Total legs for crabs**: \n  \\[\n  2 \\text{ crabs} \\times 10 \\text{ legs/crab} = 20 \\text{ legs}\n  \\]\n\n### 10. Sum the total number of legs from all animals\nNow we will sum the total legs calculated from each component:\n- Total legs from lobsters: 100\n- Total legs from humans: 2\n- Total legs from cows: 8\n- Total legs from bees: 18\n- Total legs from elephants: 52\n- Total legs from dogs: 36\n- Total legs from snakes: 0\n- Total legs from shrimps: 50\n- Total legs from crabs: 20\n\n**Total legs**:\n\\[\n100 + 2 + 8 + 18 + 52 + 36 + 0 + 50 + 20 = 336\n\\]\n\n### Final Answer\nThe total number of legs from the given list of animals is **336**.",
+      "score": 0.0,
+      "success": true,
+      "error": null,
+      "decomposition_quality": {
+        "coverage": {
+          "num_components": 10,
+          "avg_entities_per_component": 1.0,
+          "avg_dependencies_per_component": 0.9,
+          "total_unique_entities": 10
+        },
+        "granularity": {
+          "avg_component_size": 1.0,
+          "std_component_size": 0.0,
+          "max_dependency_depth": 1,
+          "granularity_balance": 1.0
+        },
+        "dependencies": {
+          "has_circular_deps": false,
+          "invalid_dependencies": 0,
+          "invalid_dependency_pairs": []
+        }
+      },
+      "decomposition_stats": {
+        "avg_difficulty": 0.39999999999999997,
+        "avg_impact": 0.55,
+        "max_dependency_order": 9,
+        "num_components": 10,
+        "num_root_components": 9,
+        "num_leaf_components": 1
+      }
+    },
+    {
+      "problem_index": 3,
+      "solution": "Let's systematically address each sub-component to calculate the total number of legs from the given list of animals.\n\n### 1. Count legs of spiders\n- **Entities**: 8 spiders\n- **Legs per spider**: 8 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from spiders} = 8 \\text{ spiders} \\times 8 \\text{ legs/spider} = 64 \\text{ legs}\n  \\]\n\n### 2. Count legs of tigers\n- **Entities**: 1 tiger\n- **Legs per tiger**: 4 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from tigers} = 1 \\text{ tiger} \\times 4 \\text{ legs/tiger} = 4 \\text{ legs}\n  \\]\n\n### 3. Count legs of chickens\n- **Entities**: 2 chickens\n- **Legs per chicken**: 2 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from chickens} = 2 \\text{ chickens} \\times 2 \\text{ legs/chicken} = 4 \\text{ legs}\n  \\]\n\n### 4. Count legs of starfish\n- **Entities**: 5 starfish\n- **Legs per starfish**: 5 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from starfish} = 5 \\text{ starfish} \\times 5 \\text{ legs/starfish} = 25 \\text{ legs}\n  \\]\n\n### 5. Count legs of ants\n- **Entities**: 13 ants\n- **Legs per ant**: 6 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from ants} = 13 \\text{ ants} \\times 6 \\text{ legs/ant} = 78 \\text{ legs}\n  \\]\n\n### 6. Count legs of snakes\n- **Entities**: 2 snakes\n- **Legs per snake**: 0 legs (snakes do not have legs)\n- **Calculation**: \n  \\[\n  \\text{Total legs from snakes} = 2 \\text{ snakes} \\times 0 \\text{ legs/snake} = 0 \\text{ legs}\n  \\]\n\n### 7. Sum all counted legs\nNow we will sum the legs counted from each of the components above:\n- Legs from spiders: 64\n- Legs from tigers: 4\n- Legs from chickens: 4\n- Legs from starfish: 25\n- Legs from ants: 78\n- Legs from snakes: 0\n\n**Total Calculation**:\n\\[\n\\text{Total legs} = 64 + 4 + 4 + 25 + 78 + 0 = 175 \\text{ legs}\n\\]\n\n### 8. Count legs of grasshoppers\n- **Entities**: 2 grasshoppers\n- **Legs per grasshopper**: 6 legs\n- **Calculation**: \n  \\[\n  \\text{Total legs from grasshoppers} = 2 \\text{ grasshoppers} \\times 6 \\text{ legs/grasshopper} = 12 \\text{ legs}\n  \\]\n\n### Final Calculation\nNow we will add the legs from the grasshoppers to the total legs calculated previously:\n\\[\n\\text{Final Total Legs} = 175 + 12 = 187 \\text{ legs}\n\\]\n\n### Final Answer\nThe total number of legs from the given list of animals is **187 legs**.",
+      "score": 0.001329198050509526,
+      "success": true,
+      "error": null,
+      "decomposition_quality": {
+        "coverage": {
+          "num_components": 8,
+          "avg_entities_per_component": 1.0,
+          "avg_dependencies_per_component": 0.875,
+          "total_unique_entities": 8
+        },
+        "granularity": {
+          "avg_component_size": 1.0,
+          "std_component_size": 0.0,
+          "max_dependency_depth": 1,
+          "granularity_balance": 1.0
+        },
+        "dependencies": {
+          "has_circular_deps": false,
+          "invalid_dependencies": 0,
+          "invalid_dependency_pairs": []
+        }
+      },
+      "decomposition_stats": {
+        "avg_difficulty": 0.1375,
+        "avg_impact": 0.5812499999999999,
+        "max_dependency_order": 7,
+        "num_components": 8,
+        "num_root_components": 7,
+        "num_leaf_components": 1
+      }
+    },
+    {
+      "problem_index": 4,
+      "solution": "Let's solve the problem step-by-step by addressing each sub-component in the order listed.\n\n### 1. Count the legs of jellyfish\n- **Entities**: jellyfish\n- **Count**: 10 jellyfish\n- **Legs per jellyfish**: 0 (jellyfish do not have legs)\n  \n**Calculation**:\n\\[\n\\text{Total legs from jellyfish} = 10 \\times 0 = 0\n\\]\n\n### 2. Count the legs of elephants\n- **Entities**: elephants\n- **Count**: 9 elephants\n- **Legs per elephant**: 4\n  \n**Calculation**:\n\\[\n\\text{Total legs from elephants} = 9 \\times 4 = 36\n\\]\n\n### 3. Count the legs of crabs\n- **Entities**: crabs\n- **Count**: 13 crabs\n- **Legs per crab**: 10\n  \n**Calculation**:\n\\[\n\\text{Total legs from crabs} = 13 \\times 10 = 130\n\\]\n\n### 4. Count the legs of wasps\n- **Entities**: wasps\n- **Count**: 3 wasps\n- **Legs per wasp**: 6\n  \n**Calculation**:\n\\[\n\\text{Total legs from wasps} = 3 \\times 6 = 18\n\\]\n\n### 5. Sum the total number of legs counted from all animals\n- **Dependencies**: Total legs from jellyfish, elephants, crabs, and wasps\n- **Total legs**:\n  - Legs from jellyfish: 0\n  - Legs from elephants: 36\n  - Legs from crabs: 130\n  - Legs from wasps: 18\n\n**Calculation**:\n\\[\n\\text{Total legs} = 0 + 36 + 130 + 18 = 184\n\\]\n\n### Final Answer\nThe total number of legs from the given list of animals is **184**.",
+      "score": 0.0023752969121140144,
+      "success": true,
+      "error": null,
+      "decomposition_quality": {
+        "coverage": {
+          "num_components": 5,
+          "avg_entities_per_component": 1.0,
+          "avg_dependencies_per_component": 0.8,
+          "total_unique_entities": 5
+        },
+        "granularity": {
+          "avg_component_size": 1.0,
+          "std_component_size": 0.0,
+          "max_dependency_depth": 1,
+          "granularity_balance": 1.0
+        },
+        "dependencies": {
+          "has_circular_deps": false,
+          "invalid_dependencies": 0,
+          "invalid_dependency_pairs": []
+        }
+      },
+      "decomposition_stats": {
+        "avg_difficulty": 0.16,
+        "avg_impact": 0.66,
+        "max_dependency_order": 4,
+        "num_components": 5,
+        "num_root_components": 4,
+        "num_leaf_components": 1
+      }
+    }
+  ],
+  "comparison": {
+    "accuracy_improvement": {
+      "baseline_accuracy": 0.0038827481672668307,
+      "baseline_std": 0.0019911943576771053,
+      "decomposition_accuracy": 0.001624968239752874,
+      "decomposition_std": 0.0008966516081036385,
+      "absolute_improvement": -0.002257779927513957,
+      "relative_improvement": -0.5814901791849323,
+      "error_reduction": -0.0022665804887526237,
+      "t_statistic": null,
+      "p_value": null,
+      "is_significant": false
+    }
+  },
+  "success": true,
+  "avg_decomposition_quality": {
+    "avg_components": 6.4,
+    "avg_coverage_metrics": {
+      "avg_entities_per_component": 1.0,
+      "total_unique_entities": 6.4
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "domain": "logic",
+  "task": "knights_knaves",
+  "timestamp": "2026-02-24T16:14:53.295244",
+  "num_problems": 5,
+  "baseline_results": [
+    {
+      "problem_index": 0,
+      "solution": "To solve the problem, we analyze the statements made by Zoey and Riley.\n\n1. **Zoey's statement**: \"Riley is a fool.\"\n   - If Zoey is a sage (truth-teller), then Riley is indeed a fool.\n   - If Zoey is a fool (liar), then Riley is not a fool, meaning Riley is a sage.\n\n2. **Riley's statement**: \"Zoey is a sage or Riley is a sage.\"\n   - This statement is a logical disjunction (OR). For this statement to be false, both parts must be false. Therefore:\n     - If Riley is a sage, then the statement is true.\n     - If Riley is a fool, then the statement is false, which means both parts are false (Zoey is not a sage, and Riley is not a sage).\n\nNow, let's analyze the scenarios:\n\n- **Assume Zoey is a sage**:\n  - Then Riley is a fool (from Zoey's statement).\n  - If Riley is a fool, his statement \"Zoey is a sage or Riley is a sage\" must be false. Since Zoey is a sage, this part is true, which contradicts the assumption that Riley is a fool. Therefore, this scenario is not possible.\n\n- **Assume Zoey is a fool**:\n  - Then Riley is a sage (since Zoey's statement that \"Riley is a fool\" is false).\n  - If Riley is a sage, his statement \"Zoey is a sage or Riley is a sage\" is true. Since Riley is indeed a sage, this statement holds true.\n\nThus, the only consistent scenario is that Zoey is a fool and Riley is a sage.\n\nFinal answer: Zoey is a fool, and Riley is a sage.",
+      "score": 0.0,
+      "success": true,
+      "error": null
+    },
+    {
+      "problem_index": 1,
+      "solution": "To solve the problem, let's analyze the statements made by Riley and Olivia.\n\n1. Riley says, \"If Riley is a pioneer, then Olivia is a laggard.\"\n2. Olivia says, \"Olivia is a pioneer and Riley is a laggard.\"\n\nLet's consider the possibilities:\n\n**Case 1: Assume Riley is a pioneer (truth-teller).**\n- If Riley is telling the truth, then his statement \"If Riley is a pioneer, then Olivia is a laggard\" must be true. This means Olivia must be a laggard (liar).\n- If Olivia is a laggard, her statement \"Olivia is a pioneer and Riley is a laggard\" would be false. Since Olivia is a laggard, her claim of being a pioneer is false, which is consistent with our assumption that Riley is a pioneer and Olivia is a laggard.\n\n**Conclusion from Case 1:**\n- Riley is a pioneer, and Olivia is a laggard.\n\n**Case 2: Assume Riley is a laggard (liar).**\n- If Riley is lying, then his statement \"If Riley is a pioneer, then Olivia is a laggard\" is false. This means that it is not the case that if Riley is a pioneer, then Olivia is a laggard. This can be interpreted as Riley being a laggard and Olivia being a pioneer (since a true statement would require Olivia to be a laggard if Riley were a pioneer).\n- If Olivia is a pioneer, her statement \"Olivia is a pioneer and Riley is a laggard\" would be true, which contradicts our assumption that Riley is a laggard (liar).\n\n**Conclusion from Case 2:**\n- This case leads to a contradiction.\n\nSince Case 1 is consistent and Case 2 leads to a contradiction, we conclude that:\n\n**Answer: Riley is a pioneer, and Olivia is a laggard.**",
+      "score": 0.0,
+      "success": true,
+      "error": null
+    },
+    {
+      "problem_index": 2,
+      "solution": "To solve the problem, let's analyze the statements made by Samuel and Jacob.\n\n1. **Samuel's statement**: \"If Samuel is a saint then Jacob is a sinner.\"\n   - This is a conditional statement. It can be true in two scenarios:\n     - Samuel is a saint and Jacob is a sinner (true).\n     - Samuel is a sinner (in which case the statement is vacuously true).\n\n2. **Jacob's statement**: \"If Samuel is a saint then Samuel is a sinner.\"\n   - This statement is also a conditional. It can only be true if:\n     - Samuel is a saint (which would make Jacob's statement false, as it contradicts itself).\n     - Samuel is a sinner (in which case the statement is vacuously true).\n\nNow, let's analyze the implications:\n\n- If **Samuel is a saint**:\n  - Then Jacob must be a sinner (from Samuel's statement).\n  - But if Jacob is a sinner, his statement \"If Samuel is a saint then Samuel is a sinner\" would be false, which is a contradiction.\n\n- If **Samuel is a sinner**:\n  - Then Samuel's statement is vacuously true (since sinners lie).\n  - Jacob's statement would also be vacuously true, as it would not contradict itself (since Samuel is a sinner).\n\nThus, the only consistent scenario is:\n- Samuel is a sinner.\n- Jacob is a saint.\n\nTherefore, the answer is:\n\n**Samuel is a sinner, and Jacob is a saint.**",
+      "score": 0.0,
+      "success": true,
+      "error": null
+    },
+    {
+      "problem_index": 3,
+      "solution": "To solve the problem, let's analyze the statements made by Olivia and Lily.\n\n1. **Olivia's Statement**: \"Lily is a laggard and Lily is a pioneer.\"\n   - This statement is contradictory because Lily cannot be both a laggard (who always lies) and a pioneer (who always tells the truth) at the same time. Therefore, Olivia must be lying, which means Olivia is a laggard.\n\n2. **Lily's Statement**: \"If Olivia is a pioneer then Lily is a pioneer.\"\n   - Since we have established that Olivia is a laggard, the premise \"Olivia is a pioneer\" is false. In logical terms, a statement of the form \"If P then Q\" is true if P is false, regardless of the truth value of Q. Therefore, Lily's statement is true.\n\nSince Lily's statement is true, she must be a pioneer.\n\nThus, we conclude:\nOlivia is a laggard, and Lily is a pioneer.\n\nAnswer: Olivia is a laggard, and Lily is a pioneer.",
+      "score": 0.0,
+      "success": true,
+      "error": null
+    },
+    {
+      "problem_index": 4,
+      "solution": "Mason is an altruist, and Jack is an egoist.",
+      "score": 1.0,
+      "success": true,
+      "error": null
+    }
+  ],
+  "decomposition_results": [
+    {
+      "problem_index": 0,
+      "solution": "Let's address each sub-component systematically to determine who is a sage and who is a fool among Zoey and Riley.\n\n### Component 1: Analyze Riley's statement about Zoey and himself\n\n**Riley's Statement:** \"Zoey is a sage or Riley is a sage.\"\n\nThis statement is a logical disjunction (an \"or\" statement). For this statement to be true, at least one of the following must be true:\n1. Zoey is a sage.\n2. Riley is a sage.\n\nNow, we need to consider the implications of each scenario:\n\n- **If Riley is a sage (truth-teller):** \n  - His statement would be true, meaning at least one of the conditions must hold. Therefore, either Zoey is a sage or he is a sage (which he is).\n  \n- **If Riley is a fool (liar):**\n  - His statement would be false. This means both conditions must be false:\n    - Zoey is not a sage (so she is a fool).\n    - Riley is not a sage (so he is a fool).\n\n### Component 2: Analyze Zoey's statement about Riley\n\n**Zoey's Statement:** \"Riley is a fool.\"\n\nThis is a straightforward statement. Let's analyze it:\n\n- **If Zoey is a sage (truth-teller):**\n  - Her statement would be true, meaning Riley is indeed a fool.\n  \n- **If Zoey is a fool (liar):**\n  - Her statement would be false, meaning Riley is not a fool (which implies he is a sage).\n\n### Component 3: Establish the truthfulness of each inhabitant based on their statements\n\nNow, we will combine the results from the first two components to establish the truthfulness of each inhabitant.\n\n1. **Assume Riley is a sage:**\n   - If Riley is a sage, then his statement \"Zoey is a sage or Riley is a sage\" is true. This means either Zoey is a sage or he is a sage (which he is).\n   - If Zoey is also a sage, then her statement \"Riley is a fool\" would be false, which contradicts our assumption that Riley is a sage. Therefore, this scenario is not possible.\n\n2. **Assume Riley is a fool:**\n   - If Riley is a fool, then his statement \"Zoey is a sage or Riley is a sage\" is false. This means both must be false: Zoey is not a sage (so she is a fool) and Riley is not a sage (which he is, as assumed).\n   - If Zoey is a fool, then her statement \"Riley is a fool\" is false, meaning Riley is a sage. This creates a contradiction since we assumed Riley is a fool.\n\nSince both assumptions lead to contradictions, we can conclude:\n\n- **Riley must be a fool.**\n- **Zoey must be a sage.**\n\n### Final Answer\n\nThus, the final answer is: \"Zoey is a sage, and Riley is a fool.\"",
+      "score": 0.0,
+      "success": true,
+      "error": null,
+      "decomposition_quality": {
+        "coverage": {
+          "num_components": 3,
+          "avg_entities_per_component": 2.0,
+          "avg_dependencies_per_component": 0.6666666666666666,
+          "total_unique_entities": 2
+        },
+        "granularity": {
+          "avg_component_size": 2.0,
+          "std_component_size": 0.0,
+          "max_dependency_depth": 1,
+          "granularity_balance": 1.0
+        },
+        "dependencies": {
+          "has_circular_deps": false,
+          "invalid_dependencies": 0,
+          "invalid_dependency_pairs": []
+        }
+      },
+      "decomposition_stats": {
+        "avg_difficulty": 0.5,
+        "avg_impact": 0.7000000000000001,
+        "max_dependency_order": 2,
+        "num_components": 3,
+        "num_root_components": 2,
+        "num_leaf_components": 1
+      }
+    },
+    {
+      "problem_index": 1,
+      "solution": "Let's solve the problem step-by-step, addressing each sub-component in the specified order.\n\n### Component 1: Analyze Olivia's statement about herself and Riley\nOlivia stated, \"Olivia is a pioneer and Riley is a laggard.\"\n\n- If Olivia is telling the truth (i.e., she is a pioneer), then her statement must be true:\n  - Olivia is a pioneer (true).\n  - Riley is a laggard (true).\n\n- If Olivia is lying (i.e., she is a laggard), then her statement must be false:\n  - \"Olivia is a pioneer\" would be false (meaning Olivia is a laggard).\n  - \"Riley is a laggard\" would also be false (meaning Riley is a pioneer).\n\nFrom this analysis, we have two scenarios:\n1. If Olivia is a pioneer, then Riley is a laggard.\n2. If Olivia is a laggard, then Riley is a pioneer.\n\n### Component 2: Analyze Riley's statement about Olivia\nRiley stated, \"If Riley is a pioneer then Olivia is a laggard.\"\n\n- If Riley is telling the truth (i.e., he is a pioneer), then the statement must hold:\n  - If Riley is a pioneer, then Olivia must be a laggard (which aligns with the first scenario from Olivia's statement).\n\n- If Riley is lying (i.e., he is a laggard), then the statement must be false:\n  - The implication \"If Riley is a pioneer then Olivia is a laggard\" being false means that Riley is a pioneer and Olivia is not a laggard (which contradicts the assumption that Riley is a laggard).\n\nFrom this analysis, we conclude:\n1. If Riley is a pioneer, then Olivia is a laggard.\n2. If Riley is a laggard, this leads to a contradiction.\n\n### Component 3: Determine the truthfulness of Riley's statement\nNow we can summarize our findings:\n- From Component 1, if Olivia is a pioneer, then Riley is a laggard.\n- From Component 2, if Riley is a laggard, it leads to a contradiction.\n\nThus, the only consistent scenario is:\n- Riley must be a pioneer (because if he were a laggard, it would contradict Olivia's statement).\n- Therefore, Olivia must be a laggard (since if Riley is a pioneer, then Olivia must be a laggard).\n\n### Component 4: Determine the truthfulness of Olivia's statement\nWe have already concluded:\n- Riley is a pioneer.\n- Olivia is a laggard.\n\nSince Olivia is a laggard, her statement \"Olivia is a pioneer and Riley is a laggard\" is false. This aligns with our findings.\n\n### Final Answer\nPutting it all together:\nRiley is a pioneer, and Olivia is a laggard.",
+      "score": 0.0,
+      "success": true,
+      "error": null,
+      "decomposition_quality": {
+        "coverage": {
+          "num_components": 4,
+          "avg_entities_per_component": 2.0,
+          "avg_dependencies_per_component": 0.5,
+          "total_unique_entities": 2
+        },
+        "granularity": {
+          "avg_component_size": 2.0,
+          "std_component_size": 0.0,
+          "max_dependency_depth": 1,
+          "granularity_balance": 1.0
+        },
+        "dependencies": {
+          "has_circular_deps": false,
+          "invalid_dependencies": 0,
+          "invalid_dependency_pairs": []
+        }
+      },
+      "decomposition_stats": {
+        "avg_difficulty": 0.6,
+        "avg_impact": 0.5,
+        "max_dependency_order": 3,
+        "num_components": 4,
+        "num_root_components": 2,
+        "num_leaf_components": 2
+      }
+    },
+    {
+      "problem_index": 2,
+      "solution": "Let's address each sub-component systematically.\n\n### Component 1: Analyze Jacob's statement about Samuel\n**Jacob's Statement:** \"If Samuel is a saint, then Samuel is a sinner.\"\n\n**Analysis:**\n- If Jacob is a saint (truth-teller), then his statement must be true. This leads to a contradiction because if Samuel is a saint, he cannot also be a sinner.\n- If Jacob is a sinner (liar), then his statement is false. The falsehood of the statement \"If Samuel is a saint, then Samuel is a sinner\" implies that it is not the case that \"Samuel is a saint\" leads to \"Samuel is a sinner.\" This means Samuel must be a saint (because the implication is false only if the first part is true and the second part is false).\n\n**Conclusion from Component 1:** \n- If Jacob is a sinner, then Samuel must be a saint.\n\n### Component 2: Analyze Samuel's statement about Jacob\n**Samuel's Statement:** \"If Samuel is a saint, then Jacob is a sinner.\"\n\n**Analysis:**\n- If Samuel is a saint (truth-teller), then his statement must be true. This means if Samuel is indeed a saint, Jacob must be a sinner.\n- If Samuel is a sinner (liar), then his statement is false. The falsehood of the statement \"If Samuel is a saint, then Jacob is a sinner\" implies that Samuel being a saint does not lead to Jacob being a sinner, which is a contradiction since if Samuel is a sinner, he cannot be a saint.\n\n**Conclusion from Component 2:** \n- If Samuel is a saint, then Jacob is a sinner. If Samuel is a sinner, it leads to contradictions.\n\n### Component 3: Conclude the identities of Samuel and Jacob based on their statements\nFrom Component 1, we concluded that if Jacob is a sinner, then Samuel is a saint. From Component 2, we concluded that if Samuel is a saint, then Jacob is a sinner.\n\nBoth components lead us to the conclusion:\n- Samuel is a saint.\n- Jacob is a sinner.\n\n### Final Answer:\n\"Samuel is a saint, and Jacob is a sinner.\"",
+      "score": 0.0,
+      "success": true,
+      "error": null,
+      "decomposition_quality": {
+        "coverage": {
+          "num_components": 3,
+          "avg_entities_per_component": 2.0,
+          "avg_dependencies_per_component": 0.6666666666666666,
+          "total_unique_entities": 2
+        },
+        "granularity": {
+          "avg_component_size": 2.0,
+          "std_component_size": 0.0,
+          "max_dependency_depth": 1,
+          "granularity_balance": 1.0
+        },
+        "dependencies": {
+          "has_circular_deps": false,
+          "invalid_dependencies": 0,
+          "invalid_dependency_pairs": []
+        }
+      },
+      "decomposition_stats": {
+        "avg_difficulty": 0.5,
+        "avg_impact": 0.7000000000000001,
+        "max_dependency_order": 2,
+        "num_components": 3,
+        "num_root_components": 2,
+        "num_leaf_components": 1
+      }
+    },
+    {
+      "problem_index": 3,
+      "solution": "To solve the problem, we will systematically address each sub-component in the order of priority.\n\n### Component 1: Analyze Lily's statement regarding Olivia's status\n\n**Lily's Statement:** \"If Olivia is a pioneer, then Lily is a pioneer.\"\n\n1. **Assume Olivia is a Pioneer:**\n   - If Olivia is a pioneer, she tells the truth.\n   - Therefore, Lily's statement must also be true.\n   - This means if Olivia is a pioneer, then Lily must also be a pioneer.\n\n2. **Assume Olivia is a Laggard:**\n   - If Olivia is a laggard, she lies.\n   - Therefore, Lily's statement would be false.\n   - The statement \"If Olivia is a pioneer, then Lily is a pioneer\" being false means that Olivia is a pioneer and Lily is not a pioneer, which is a contradiction since we assumed Olivia is a laggard.\n\n**Conclusion from Component 1:**\n- If Olivia is a pioneer, Lily is a pioneer.\n- If Olivia is a laggard, it leads to a contradiction. Thus, Olivia must be a pioneer.\n\n### Component 2: Evaluate Olivia's statement about Lily\n\n**Olivia's Statement:** \"Lily is a laggard and Lily is a pioneer.\"\n\n1. **If Olivia is a Pioneer:**\n   - Since Olivia tells the truth, both parts of her statement must be true.\n   - This means Lily is both a laggard and a pioneer, which is impossible.\n\n2. **If Olivia is a Laggard:**\n   - Since Olivia lies, the statement \"Lily is a laggard and Lily is a pioneer\" must be false.\n   - The only way for this conjunction to be false is if at least one part is false.\n   - If Lily is a laggard, then the first part is true, which would make the entire statement true, contradicting Olivia's status as a laggard.\n   - Therefore, the only possibility left is that Lily is a pioneer.\n\n**Conclusion from Component 2:**\n- Since Olivia cannot be a pioneer (as it leads to a contradiction), Olivia must be a laggard, and thus Lily must be a pioneer.\n\n### Final Answer:\nBased on the analysis of both components, we conclude:\n\"Olivia is a laggard, and Lily is a pioneer.\"",
+      "score": 0.0,
+      "success": true,
+      "error": null,
+      "decomposition_quality": {
+        "coverage": {
+          "num_components": 2,
+          "avg_entities_per_component": 2.0,
+          "avg_dependencies_per_component": 0.0,
+          "total_unique_entities": 2
+        },
+        "granularity": {
+          "avg_component_size": 2.0,
+          "std_component_size": 0.0,
+          "max_dependency_depth": 0,
+          "granularity_balance": 1.0
+        },
+        "dependencies": {
+          "has_circular_deps": false,
+          "invalid_dependencies": 0,
+          "invalid_dependency_pairs": []
+        }
+      },
+      "decomposition_stats": {
+        "avg_difficulty": 0.5,
+        "avg_impact": 0.1,
+        "max_dependency_order": 1,
+        "num_components": 2,
+        "num_root_components": 2,
+        "num_leaf_components": 0
+      }
+    },
+    {
+      "problem_index": 4,
+      "solution": "Let's solve the problem step-by-step according to the provided sub-components.\n\n### Component 1: Evaluate Jack's statement about Mason\n- **Jack's Statement**: \"Mason is an egoist.\"\n  \nWe need to analyze this statement based on the possible identities of Jack and Mason.\n\n1. **If Jack is an altruist** (truth-teller), then his statement must be true, which means Mason is indeed an egoist.\n2. **If Jack is an egoist** (liar), then his statement is false, which means Mason is not an egoist, hence Mason must be an altruist.\n\nFrom this analysis, we have two scenarios:\n- Scenario A: If Jack is an altruist, then Mason is an egoist.\n- Scenario B: If Jack is an egoist, then Mason is an altruist.\n\n### Component 2: Evaluate Mason's statement about Jack\n- **Mason's Statement**: \"If Jack is an egoist, then Mason is an altruist.\"\n\nThis is a conditional statement that can be evaluated as follows:\n1. **If Mason is an altruist** (truth-teller), then the statement must be true. This means if Jack is indeed an egoist, then Mason must be an altruist, which is consistent.\n2. **If Mason is an egoist** (liar), then the statement is false. This means that Jack being an egoist does not imply that Mason is an altruist, which could mean that Jack is an altruist instead.\n\nFrom this analysis, we have two scenarios:\n- Scenario C: If Mason is an altruist, then Jack can be either an altruist or an egoist.\n- Scenario D: If Mason is an egoist, then Jack must be an altruist.\n\n### Component 3: Conclude the identities of Mason and Jack based on their statements\nNow we need to combine the insights from Components 1 and 2 to determine the identities of Mason and Jack.\n\n1. From Component 1:\n   - If Jack is an altruist, Mason is an egoist.\n   - If Jack is an egoist, Mason is an altruist.\n\n2. From Component 2:\n   - If Mason is an altruist, Jack can be either.\n   - If Mason is an egoist, Jack must be an altruist.\n\nNow let's analyze the scenarios:\n- **Assume Jack is an altruist**: \n  - Then Mason is an egoist (from Component 1).\n  - If Mason is an egoist, then his statement about Jack being an egoist must be false, which contradicts our assumption that Jack is an altruist.\n\n- **Assume Jack is an egoist**: \n  - Then Mason is an altruist (from Component 1).\n  - If Mason is an altruist, his statement about Jack being an egoist must be true, which is consistent.\n\nThus, the only consistent scenario is:\n- Mason is an altruist.\n- Jack is an egoist.\n\n### Final Answer\nMason is an altruist, and Jack is an egoist.",
+      "score": 0.0,
+      "success": true,
+      "error": null,
+      "decomposition_quality": {
+        "coverage": {
+          "num_components": 3,
+          "avg_entities_per_component": 2.0,
+          "avg_dependencies_per_component": 0.6666666666666666,
+          "total_unique_entities": 2
+        },
+        "granularity": {
+          "avg_component_size": 2.0,
+          "std_component_size": 0.0,
+          "max_dependency_depth": 1,
+          "granularity_balance": 1.0
+        },
+        "dependencies": {
+          "has_circular_deps": false,
+          "invalid_dependencies": 0,
+          "invalid_dependency_pairs": []
+        }
+      },
+      "decomposition_stats": {
+        "avg_difficulty": 0.5,
+        "avg_impact": 0.7000000000000001,
+        "max_dependency_order": 2,
+        "num_components": 3,
+        "num_root_components": 2,
+        "num_leaf_components": 1
+      }
+    }
+  ],
+  "comparison": {
+    "accuracy_improvement": {
+      "baseline_accuracy": 0.2,
+      "baseline_std": 0.4,
+      "decomposition_accuracy": 0.0,
+      "decomposition_std": 0.0,
+      "absolute_improvement": -0.2,
+      "relative_improvement": -1.0,
+      "error_reduction": -0.25,
+      "t_statistic": null,
+      "p_value": null,
+      "is_significant": false
+    }
+  },
+  "success": true,
+  "avg_decomposition_quality": {
+    "avg_components": 3.0,
+    "avg_coverage_metrics": {
+      "avg_entities_per_component": 2.0,
+      "total_unique_entities": 2.0
+    }
+  }
+}

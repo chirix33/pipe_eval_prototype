@@ -148,9 +148,13 @@ class CrossDomainEvaluator:
             )
             
             # Verify solutions
+            # Use final_answer if available (for high scores), otherwise fall back to full solution
+            baseline_answer = baseline_result.final_answer if baseline_result.final_answer else baseline_result.solution
+            decomp_answer = decomp_result.final_answer if decomp_result.final_answer else decomp_result.solution
+            
             baseline_verification = self.verifier.verify(
                 decomposition=decomposition,  # Use same decomposition for fair comparison
-                solution=baseline_result.solution,
+                solution=baseline_answer,
                 problem_entry=problem_entry,
                 dataset=dataset,
                 use_component_verification=False
@@ -158,7 +162,7 @@ class CrossDomainEvaluator:
             
             decomp_verification = self.verifier.verify(
                 decomposition=decomposition,
-                solution=decomp_result.solution,
+                solution=decomp_answer,
                 problem_entry=problem_entry,
                 dataset=dataset,
                 use_component_verification=False
@@ -174,6 +178,7 @@ class CrossDomainEvaluator:
             results["baseline_results"].append({
                 "problem_index": i,
                 "solution": baseline_result.solution,
+                "final_answer": baseline_result.final_answer,
                 "score": baseline_score,
                 "success": baseline_result.success,
                 "error": baseline_result.error_message,
@@ -182,6 +187,7 @@ class CrossDomainEvaluator:
             results["decomposition_results"].append({
                 "problem_index": i,
                 "solution": decomp_result.solution,
+                "final_answer": decomp_result.final_answer,
                 "score": decomp_score,
                 "success": decomp_result.success,
                 "error": decomp_result.error_message,

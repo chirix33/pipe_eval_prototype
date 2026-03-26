@@ -12,12 +12,16 @@ class BaselineSolver(BaseSolver):
     representing the standard "black-box" LLM problem-solving approach.
     """
     
-    BASELINE_PROMPT_TEMPLATE = """Solve the following problem. Provide your answer clearly and concisely.
+    BASELINE_PROMPT_TEMPLATE = """Solve the following problem. Provide your solution in JSON format.
 
 Problem:
 {problem_statement}
 
-Answer:"""
+Respond with a JSON object containing:
+- "reasoning": (string) Your step-by-step reasoning and work
+- "final_answer": (string or number) Your final answer only, e.g. "100" for numeric answers
+
+Output only valid JSON, no other text."""
 
     def solve(
         self,
@@ -40,18 +44,28 @@ Answer:"""
                 problem_statement=problem_statement
             )
             
-            solution = self._call_llm(
+            response = self._call_llm(
                 prompt=prompt,
-                system_message="You are a problem-solving assistant. Provide clear, accurate solutions."
+                system_message="You are a problem-solving assistant. Provide clear, accurate solutions in JSON format.",
+                use_json_mode=True  # Request JSON mode for reliable parsing
             )
+            
+            # Parse JSON response to extract reasoning and final_answer
+            reasoning, final_answer = self._parse_json_response(response)
+            
+            # Use reasoning as solution (for backward compatibility and logging)
+            # If parsing failed, use full response as solution
+            solution = reasoning if reasoning else response
             
             return SolverResult(
                 solution=solution,
                 success=True,
+                final_answer=final_answer,
                 metadata={
                     "method": "baseline",
                     "has_decomposition": False,
                     "components_used": [],
+                    "json_parsed": final_answer is not None,
                 }
             )
             

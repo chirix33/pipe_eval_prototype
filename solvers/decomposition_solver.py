@@ -14,7 +14,7 @@ class DecompositionSolver(BaseSolver):
     to guide the LLM through solving the problem systematically.
     """
     
-    DECOMPOSITION_PROMPT_TEMPLATE = """Solve the following problem by addressing each sub-component systematically.
+    DECOMPOSITION_PROMPT_TEMPLATE = """Solve the following problem by addressing each sub-component systematically. Provide your solution in JSON format.
 
 Problem Statement:
 {problem_statement}
@@ -28,10 +28,14 @@ Instructions:
 1. Address each sub-component in the order listed above
 2. Pay special attention to high-priority components (those with higher priority scores)
 3. Ensure you address all dependencies before solving dependent components
-4. Show your work for each component
-5. Provide your final answer clearly
+4. Show your work for each component in the "reasoning" field
+5. Provide your final answer in the "final_answer" field
 
-Begin solving:"""
+Respond with a JSON object containing:
+- "reasoning": (string) Your step-by-step reasoning addressing each component
+- "final_answer": (string or number) Your final answer only, e.g. "100" for numeric answers
+
+Output only valid JSON, no other text."""
 
     def __init__(self, llm_config, weight_calculator: Optional[WeightCalculator] = None):
         """Initialize decomposition-guided solver.
@@ -83,14 +87,23 @@ Begin solving:"""
                 components_list=components_list
             )
             
-            solution = self._call_llm(
+            response = self._call_llm(
                 prompt=prompt,
                 system_message=(
                     "You are a systematic problem-solving assistant. "
                     "Use the provided decomposition to solve problems step-by-step, "
-                    "addressing each component in priority order."
-                )
+                    "addressing each component in priority order. "
+                    "Provide your solution in JSON format."
+                ),
+                use_json_mode=True  # Request JSON mode for reliable parsing
             )
+            
+            # Parse JSON response to extract reasoning and final_answer
+            reasoning, final_answer = self._parse_json_response(response)
+            
+            # Use reasoning as solution (for backward compatibility and logging)
+            # If parsing failed, use full response as solution
+            solution = reasoning if reasoning else response
             
             # Extract metadata about decomposition usage
             metadata = {
@@ -100,11 +113,13 @@ Begin solving:"""
                 "components_used": list(decomposition.sub_components.keys()),
                 "main_goal": decomposition.main_goal,
                 "decomposition_stats": self._extract_decomposition_stats(decomposition),
+                "json_parsed": final_answer is not None,
             }
             
             return SolverResult(
                 solution=solution,
                 success=True,
+                final_answer=final_answer,
                 metadata=metadata
             )
             
