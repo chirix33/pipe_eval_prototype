@@ -4,6 +4,11 @@ This prototype implements a problem decomposition and weight calculation system
 for analyzing problem statements and identifying critical sub-components.
 """
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
+
 from .decomposition import ProblemDecomposition, SubComponent
 from .extractor import ProblemExtractor
 from .weights import WeightCalculator
